@@ -1,0 +1,21 @@
+# 10個のお題。slug は記事の categories に使う英字名
+- slug: ai-tools
+  name: AIツール
+- slug: gadget
+  name: ガジェット・スマホ周辺機器
+- slug: kaden
+  name: 家電の選び方
+- slug: camp
+  name: キャンプ・アウトドア
+- slug: game
+  name: ゲーム・ゲーミングデバイス
+- slug: vod
+  name: 動画配信サービス
+- slug: sim
+  name: 格安SIM・ネット回線
+- slug: programming
+  name: プログラミング学習
+- slug: hitorigurashi
+  name: 一人暮らしの便利グッズ
+- slug: fukugyo
+  name: 副業・ブログの始め方

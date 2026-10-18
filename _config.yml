@@ -1,0 +1,23 @@
+title: えらびかたノート
+description: 家電・ガジェット・アウトドア・暮らしの道具の「選び方」をわかりやすくまとめるブログです。
+url: "https://sako377.github.io"
+baseurl: "/blog"
+lang: ja
+timezone: Asia/Tokyo
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+permalink: /:categories/:year/:month/:day/:title/
+# 楽天アフィリエイトIDを取得したらここに入れる（例: "1a2b3c4d.5e6f7a8b.1a2b3c4e.5f6a7b8c"）
+rakuten_affiliate_id: ""
+header_pages:
+  - categories.md
+  - about.md
+  - privacy.md
+minima:
+  date_format: "%Y年%m月%d日"
+exclude:
+  - AUTOPOST.md
+  - README.md
