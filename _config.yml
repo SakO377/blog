@@ -4,6 +4,7 @@ url: "https://sako377.github.io"
 baseurl: "/blog"
 lang: ja
 timezone: Asia/Tokyo
+future: true
 theme: minima
 plugins:
   - jekyll-feed
