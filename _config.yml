@@ -22,3 +22,5 @@ minima:
 exclude:
   - AUTOPOST.md
   - README.md
+  - team
+  - scripts
