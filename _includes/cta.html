@@ -1,0 +1,8 @@
+{%- comment -%}
+公式サイトなどへの申し込みボタン。使い方:
+{% include cta.html url="https://..." label="IIJmio公式サイトでキャンペーンを見る" note="乗り換え特典は11月4日まで" %}
+{%- endcomment -%}
+<div class="cta-box">
+  {%- if include.note %}<p class="cta-note">{{ include.note }}</p>{% endif %}
+  <a class="btn-cta" href="{{ include.url }}" target="_blank" rel="nofollow sponsored noopener">{{ include.label }}</a>
+</div>

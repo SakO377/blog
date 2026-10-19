@@ -20,14 +20,19 @@
         if (typeof img === 'object') img = img.imageUrl;
         img = img.replace('?_ex=128x128', '?_ex=300x300');
         var link = it.affiliateUrl || it.itemUrl;
-        var btn = box.querySelector('a');
+        var btn = box.querySelector('a.btn-rakuten');
+        var note = box.querySelector('.item-note');
+        var d = new Date(); var day = (d.getMonth() + 1) + '月' + d.getDate() + '日';
+        var rev = it.reviewCount ? '★' + it.reviewAverage + '（レビュー' + Number(it.reviewCount).toLocaleString() + '件）' : '';
         box.classList.add('loaded');
         box.innerHTML =
           '<a class="item-card" href="' + link + '" target="_blank" rel="nofollow sponsored noopener">' +
           '<div class="item-img"><img src="' + img + '" alt="" loading="lazy"></div>' +
           '<div class="item-info"><p class="item-name"></p>' +
-          '<p class="item-price">' + Number(it.itemPrice).toLocaleString() + '<small>円（税込）</small></p>' +
-          '<p class="item-shop"></p><span class="item-btn">楽天市場で詳細を見る</span></div></a>';
+          '<p class="item-price">' + Number(it.itemPrice).toLocaleString() + '<small>円（税込・' + day + '時点）</small></p>' +
+          '<p class="item-meta">' + rev + '</p>' +
+          '<p class="item-shop"></p><span class="item-btn">楽天市場で今の価格を見る</span></div></a>';
+        if (note) box.insertBefore(note, box.firstChild);
         box.querySelector('.item-name').textContent = it.itemName.length > 60 ? it.itemName.slice(0, 60) + '…' : it.itemName;
         box.querySelector('.item-shop').textContent = it.shopName || '';
         if (btn) { btn.classList.add('btn-sub'); btn.textContent = 'ほかの商品も見る'; box.appendChild(btn); }

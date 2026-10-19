@@ -36,7 +36,7 @@ img{max-width:100%;height:auto;display:block}
 .cards.small .card-body h3{font-size:14px}
 .card-body time{font-size:12px;color:var(--sub)}
 .chip{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:#8a8fa3;border-radius:999px;padding:2px 10px;line-height:1.7}
-.chip-otoku{background:#ff5a5f}.chip-kaden{background:#3aa59a}.chip-camp{background:#e07a3f}.chip-gadget{background:#5b6ee1}.chip-sim{background:#2a9d8f}.chip-hitorigurashi{background:#e58f65}.chip-game{background:#7b6cf6}.chip-vod{background:#e05d8b}.chip-ai-tools{background:#8e7ce6}.chip-programming{background:#3d72b4}.chip-fukugyo{background:#d9a400}.chip-kisetsu{background:#c94545}
+.chip-otoku{background:#ff5a5f}.chip-kaden{background:#3aa59a}.chip-camp{background:#e07a3f}.chip-gadget{background:#5b6ee1}.chip-sim{background:#2a9d8f}.chip-hitorigurashi{background:#e58f65}.chip-game{background:#7b6cf6}.chip-vod{background:#e05d8b}.chip-ai-tools{background:#8e7ce6}.chip-programming{background:#3d72b4}.chip-fukugyo{background:#d9a400}.chip-kisetsu{background:#c94545}.chip-baby{background:#e07a95}.chip-kitchen{background:#5c9e5a}
 .cat-hero{background-size:cover;background-position:center;height:180px;display:flex;align-items:flex-end;margin-bottom:24px}
 .cat-hero h1{display:inline-block;background:#fff;border-radius:10px;padding:4px 16px;margin:0 0 16px;font-size:22px;font-family:"M PLUS Rounded 1c",sans-serif}
 /* article */
@@ -58,7 +58,7 @@ img{max-width:100%;height:auto;display:block}
 .post-content ul,.post-content ol{padding-left:1.4em;margin:0 0 1.3em}
 .post-content li{margin-bottom:.3em}
 .post-content table{width:100%;border-collapse:collapse;margin:0 0 1.6em;font-size:14px}
-.post-content th{background:#3b3f55;color:#fff;font-weight:700;padding:10px 12px;text-align:left}
+.post-content th{background:#3b3f55;color:#fff;font-weight:700;padding:10px 12px;text-align:left;white-space:nowrap}
 .post-content td{padding:10px 12px;border-bottom:1px solid var(--line)}
 .post-content tr:nth-child(even) td{background:#fafafc}
 .point-box{background:#f2f9f6;border:2px solid #bfe3d4;border-radius:12px;padding:14px 18px 6px;margin:0 0 28px}
@@ -86,3 +86,41 @@ img{max-width:100%;height:auto;display:block}
 .footer-links{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 14px}.footer-links a{color:#c9cbd6}
 .copy{margin:0;color:#8a8ea0}
 @media(max-width:640px){.article{border-radius:0;margin-top:0;padding:20px 16px 28px}.wrap.narrow.article{padding-left:16px;padding-right:16px}.cards{grid-template-columns:1fr}.cards.small{grid-template-columns:1fr 1fr}.cards.small .card-body{padding:8px 10px 10px}}
+/* ===== 記事パーツ（売れているサイトの分析から） ===== */
+.pr-note{font-size:13px;color:#555;background:#f3f3f5;padding:6px 12px;border-radius:6px;margin:0 0 16px}
+.dates{font-size:12.5px;color:var(--sub);margin:-6px 0 14px}
+.conclusion{border:2px solid var(--ink);border-radius:12px;padding:16px 18px 6px;margin:8px 0 32px;background:#fffdf5}
+.conclusion::before{content:"先に結論";display:inline-block;background:var(--ink);color:#fff;font-size:12px;font-weight:700;padding:2px 10px;border-radius:4px;margin-bottom:8px}
+.conclusion .item-box{margin:8px 0 14px}
+.method{background:#f6f7fb;border-radius:12px;padding:14px 18px 4px;margin:0 0 28px;font-size:14.5px}
+.method::before{content:"この記事の調べ方";display:block;font-weight:700;margin-bottom:6px;color:#4a5070}
+.pros-cons{display:grid;gap:12px;margin:20px 0 28px}
+@media(min-width:600px){.pros-cons{grid-template-columns:1fr 1fr}}
+.pros,.cons{border-radius:10px;padding:12px 16px 2px;font-size:15px}
+.pros{background:#eef8f1;border-top:4px solid #2e9d5b}.pros::before{content:"よいところ";font-weight:700;color:#2e9d5b;display:block;margin-bottom:4px}
+.cons{background:#fdf0f0;border-top:4px solid #c94848}.cons::before{content:"気になるところ";font-weight:700;color:#c94848;display:block;margin-bottom:4px}
+.pros ul,.cons ul{padding-left:1.2em}
+.ctable-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1.6em}
+.ctable-wrap table{min-width:560px;margin:0}
+.ctable-wrap td,.ctable-wrap th{text-align:center;vertical-align:middle}
+.ctable-wrap tbody td:first-child{position:sticky;left:0;background:#f7f7f9;font-weight:700;text-align:left}
+.source{font-size:12px;color:var(--sub);margin-top:-1em}
+details.faq{border:1px solid var(--line);border-radius:10px;margin:0 0 10px;background:#fff}
+details.faq summary{cursor:pointer;font-weight:700;padding:12px 16px;list-style:none;position:relative;padding-right:36px}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::before{content:"Q.";color:var(--accent);margin-right:6px}
+details.faq summary::after{content:"+";position:absolute;right:16px;color:var(--sub)}
+details.faq[open] summary::after{content:"−"}
+details.faq > *:not(summary){padding:0 16px}
+details.toc{background:#fafafc;border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:0 0 28px}
+details.toc summary{cursor:pointer;font-weight:700}
+details.toc ol{margin:8px 0 4px;padding-left:1.4em;font-size:14.5px}
+details.toc a{color:var(--ink);text-decoration:none}
+.cta-box{border:2px solid #ffd2bf;background:#fff8f3;border-radius:12px;padding:14px 16px;text-align:center;margin:24px 0 32px}
+.cta-note{font-size:13px;font-weight:700;color:#e2483d;margin:0 0 8px}
+.btn-cta{display:block;max-width:420px;margin:0 auto;min-height:52px;line-height:1.5;padding:14px 18px;font-size:15px;background:var(--accent);color:#fff !important;font-weight:700;text-decoration:none;border-radius:999px;box-shadow:0 4px 0 #d9532f}
+.item-note{font-size:13px;font-weight:700;color:var(--rakuten);margin:0 0 6px}
+.item-meta{font-size:12px;color:var(--sub);margin:0 0 8px}
+.item-btn{min-height:44px;line-height:44px;padding:0 20px}
+.btn-rakuten{min-height:48px;line-height:22px}
+.about-box{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;font-size:13px;color:var(--sub)}

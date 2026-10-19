@@ -5,9 +5,10 @@ layout: default
 <article class="wrap narrow article">
   <nav class="crumb"><a href="{{ '/' | relative_url }}">ホーム</a> › <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a></nav>
   <h1 class="post-title">{{ page.title | escape }}</h1>
-  <p class="post-meta"><span class="chip chip-{{ cat.slug }}">{{ cat.name }}</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time></p>
-  <img class="eyecatch" src="{% include eyecatch.html %}" alt="">
+  <p class="post-meta"><span class="chip chip-{{ cat.slug }}">{{ cat.name }}</span></p>
   {% include pr.html %}
+  <p class="dates">公開日 {{ page.date | date: site.date_format }}{% if page.updated %}　最終更新 {{ page.updated | date: site.date_format }}{% endif %}</p>
+  <img class="eyecatch" src="{% include eyecatch.html %}" alt="">
   {%- if page.expires -%}
     {%- assign now = site.time | date: '%s' | plus: 0 -%}
     {%- assign exp = page.expires | date: '%s' | plus: 86400 -%}
@@ -17,10 +18,18 @@ layout: default
   <div class="deadline"><span class="deadline-label">期間限定</span><span>キャンペーンは <strong>{{ page.expires | date: "%Y年%-m月%-d日" }}まで</strong></span></div>
     {%- endif -%}
   {%- endif -%}
-  <div class="post-content">{{ content }}</div>
+  <div class="post-content" id="post-content">{{ content }}</div>
+  <div class="about-box">この記事は、AIで下書きを作り、公式サイトや販売ページの情報で内容を確かめて公開しています。価格やキャンペーンは変わることがあるので、購入・申し込みの前に公式ページでご確認ください。くわしくは<a href="{{ '/about/' | relative_url }}">編集方針</a>をご覧ください。</div>
   {%- assign related = site.categories[page.categories[0]] | where_exp: "p", "p.url != page.url" -%}
   {%- if related.size > 0 -%}
   <h2 class="sec-title">あわせて読みたい</h2>
   <div class="cards small">{% for p in related limit: 4 %}{% include card.html post=p %}{% endfor %}</div>
   {%- endif -%}
 </article>
+<script>
+// 見出しが4つ以上ある記事は、目次を自動で入れる
+(function(){var c=document.getElementById('post-content');if(!c)return;var hs=c.querySelectorAll('h2');if(hs.length<4)return;
+var d=document.createElement('details');d.className='toc';var ol='<summary>この記事の内容</summary><ol>';
+hs.forEach(function(h,i){if(!h.id)h.id='sec'+(i+1);ol+='<li><a href="#'+h.id+'">'+h.textContent+'</a></li>';});
+d.innerHTML=ol+'</ol>';var first=c.querySelector('h2');c.insertBefore(d,first);})();
+</script>
