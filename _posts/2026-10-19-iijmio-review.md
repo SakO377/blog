@@ -94,6 +94,12 @@ IIJmioが向いているのは、スマホ代を毎月とにかく安くした�
 
 </details>
 
+<details class="faq"><summary>初期費用はいくら？</summary>
+
+2026年11月30日までのWeb申し込みは3,300円です。12月1日以降のWeb申し込みから3,850円に上がると[公式に発表](https://help.iijmio.jp/answer/6abdbc845d3c1de73a94fc9e/){:target="_blank" rel="nofollow noopener"}されています（2026年10月19日確認）。申し込むなら11月中がお得です。
+
+</details>
+
 <details class="faq"><summary>キャンペーンが終わったらどうなる？</summary>
 
 割引期間が終わると通常の料金に戻ります。25GBなら月2,000円、通話定額10分＋をつけていれば月700円が足されます。いらなければ割引期間のうちにオプションを外しましょう。
