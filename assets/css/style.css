@@ -124,3 +124,4 @@ details.toc a{color:var(--ink);text-decoration:none}
 .item-btn{min-height:44px;line-height:44px;padding:0 20px}
 .btn-rakuten{min-height:48px;line-height:22px}
 .about-box{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;font-size:13px;color:var(--sub)}
+.item-box{min-height:56px}

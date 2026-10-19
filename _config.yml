@@ -3,6 +3,9 @@ description: 家電・ガジェット・アウトドア・暮らしの道具の�
 url: "https://erabikata-note.pages.dev"
 baseurl: ""
 lang: ja
+author:
+  name: えらびかたノート編集部
+logo: /assets/img/og/otoku.png
 timezone: Asia/Tokyo
 future: true
 plugins:

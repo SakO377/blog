@@ -2,6 +2,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  {%- unless page.image -%}
+  {%- assign ogc = page.categories[0] | default: page.slug | default: 'otoku' -%}
+  <meta property="og:image" content="{{ '/assets/img/og/' | append: ogc | append: '.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {%- endunless -%}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
