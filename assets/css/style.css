@@ -125,3 +125,20 @@ details.toc a{color:var(--ink);text-decoration:none}
 .btn-rakuten{min-height:48px;line-height:22px}
 .about-box{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;font-size:13px;color:var(--sub)}
 .item-box{min-height:56px}
+.pickup-wrap{background:#2b2d3a;padding:18px 0 22px}
+.pickup-head{margin:0 0 12px;color:#fff;font-family:"M PLUS Rounded 1c",sans-serif;font-size:17px;font-weight:800;display:flex;align-items:center;gap:8px}
+.pickup-head::before{content:"";width:6px;height:18px;border-radius:3px;background:var(--accent2)}
+.pickup-list{display:flex;gap:12px;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;padding-bottom:4px;scrollbar-width:none}
+.pickup{flex:0 0 min(86%,340px);scroll-snap-align:start;background:#fff;border-radius:14px;padding:14px 16px 16px;border-top:5px solid var(--accent);display:flex;flex-direction:column}
+.pickup:only-child{flex-basis:100%}
+.pickup p{margin:0}
+.pickup-when{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--sub)}
+.pickup-badge{background:#e5483b;color:#fff;font-weight:700;font-size:11.5px;padding:1px 8px;border-radius:4px}
+.pickup-title{font-weight:800;font-size:18px;line-height:1.5;margin-top:6px !important}
+.pickup-detail{font-size:14px;line-height:1.7;color:var(--ink);margin:4px 0 12px !important}
+.pickup-code{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;border:2px dashed var(--accent);border-radius:10px;padding:8px 10px;margin-bottom:12px;background:#fff8f3}
+.pickup-code span{flex-basis:100%;font-size:11px;color:var(--sub)}
+.pickup-code code{flex:1;min-width:0;font-size:17px;font-weight:800;letter-spacing:.06em;color:var(--ink);word-break:break-all}
+.pickup-code button{border:0;background:var(--ink);color:#fff;font-weight:700;font-size:12px;border-radius:999px;padding:6px 12px;cursor:pointer}
+.pickup-btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:11px 14px;border-radius:999px;box-shadow:0 3px 0 #d9532f;margin-top:auto}
+.pickup-more{display:block;text-align:center;font-size:13px;color:var(--sub);margin-top:8px}

@@ -1,0 +1,26 @@
+# トップページいちばん上の「いま推しのお得」枠。上から順に最大3つ表示。
+# end を過ぎたものはページを開いた時点で自動で消える（ビルド時にも外す）。
+# 書き方:
+# - title: 見出し（20字くらいまで）
+#   detail: ひとこと説明（40字くらいまで。数字は公式で確認したものだけ）
+#   code: クーポンコード（なければ消す）
+#   start: "2026-10-24 20:00"   # 始まる前は「◯月◯日 ◯時から」と出る。なければ消す
+#   end: "2026-10-27 01:59"     # 必須
+#   url: ボタンの飛び先（公式ページなど）
+#   rakuten: true               # 楽天のページならアフィリエイトリンクで包む
+#   button: ボタンの文字
+#   post: /otoku/xxx/           # くわしい記事（なければ消す）
+- title: 楽天お買い物マラソン
+  detail: ショップを回るほどポイントが増える。最大10倍。まずはエントリー
+  start: "2026-10-24 20:00"
+  end: "2026-10-27 01:59"
+  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
+  rakuten: true
+  button: エントリーページを開く
+  post: /otoku/rakuten-marathon-1000yen/
+- title: IIJmio 乗り換えキャンペーン
+  detail: 乗り換えで25GBが6か月 月900円。通話定額10分＋も6か月無料
+  end: "2026-11-04 23:59"
+  url: https://www.iijmio.jp/campaign/
+  button: 公式のキャンペーンを見る
+  post: /sim/2026/10/19/iijmio-review/

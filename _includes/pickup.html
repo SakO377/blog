@@ -1,0 +1,46 @@
+{%- assign now = site.time | date: "%Y-%m-%d %H:%M" -%}
+{%- assign shown = 0 -%}
+{%- capture items -%}
+{%- for p in site.data.pickup -%}
+{%- if p.end >= now and shown < 3 -%}
+{%- assign shown = shown | plus: 1 -%}
+{%- if p.rakuten and site.rakuten_affiliate_id != "" -%}
+{%- capture href -%}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ p.url | url_encode }}&m={{ p.url | url_encode }}{%- endcapture -%}
+{%- else -%}{%- assign href = p.url -%}{%- endif -%}
+{%- assign sdate = p.start | default: "" -%}
+<div class="pickup" data-start="{{ sdate }}" data-end="{{ p.end }}">
+  <p class="pickup-when"><span class="pickup-badge">{% if sdate != "" and sdate > now %}まもなく{% else %}開催中{% endif %}</span><span class="pickup-date">{% if sdate != "" and sdate > now %}{{ sdate | date: "%-m月%-d日 %-H時" }}から{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
+  <p class="pickup-title">{{ p.title }}</p>
+  <p class="pickup-detail">{{ p.detail }}</p>
+  {%- if p.code %}
+  <div class="pickup-code"><span>クーポンコード</span><code>{{ p.code }}</code><button type="button" data-copy="{{ p.code }}">コピー</button></div>
+  {%- endif %}
+  <a class="pickup-btn" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">{{ p.button | default: "くわしく見る" }}</a>
+  {%- if p.post %}<a class="pickup-more" href="{{ p.post | relative_url }}">使い方を記事で読む</a>{% endif %}
+</div>
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if shown > 0 -%}
+<section class="pickup-wrap"><div class="wrap">
+  <h2 class="pickup-head">いま推しのお得</h2>
+  <div class="pickup-list">{{ items }}</div>
+</div></section>
+<script>
+(function(){
+  function t(s){if(!s)return null;var m=s.match(/(\d+)-(\d+)-(\d+) (\d+):(\d+)/);return m?new Date(+m[1],m[2]-1,+m[3],+m[4],+m[5]):null}
+  var now=new Date(),left=0;
+  document.querySelectorAll('.pickup').forEach(function(el){
+    var e=t(el.dataset.end),s=t(el.dataset.start);
+    if(e&&now>e){el.remove();return}left++;
+    var b=el.querySelector('.pickup-badge'),d=el.querySelector('.pickup-date');
+    if(s&&now<s){b.textContent='まもなく';d.textContent=(s.getMonth()+1)+'月'+s.getDate()+'日 '+s.getHours()+'時から'}
+    else{b.textContent='開催中';d.textContent=(e.getMonth()+1)+'月'+e.getDate()+'日 '+e.getHours()+':'+('0'+e.getMinutes()).slice(-2)+'まで'}
+  });
+  if(!left){var w=document.querySelector('.pickup-wrap');w&&w.remove()}
+  document.querySelectorAll('.pickup-code button').forEach(function(btn){
+    btn.addEventListener('click',function(){navigator.clipboard&&navigator.clipboard.writeText(btn.dataset.copy).then(function(){btn.textContent='コピーしました';setTimeout(function(){btn.textContent='コピー'},1800)})})
+  });
+})();
+</script>
+{%- endif -%}
