@@ -1,7 +1,7 @@
 title: えらびかたノート
 description: 家電・ガジェット・アウトドア・暮らしの道具の「選び方」をわかりやすくまとめるブログです。
-url: "https://sako377.github.io"
-baseurl: "/blog"
+url: "https://erabikata-note.pages.dev"
+baseurl: ""
 lang: ja
 timezone: Asia/Tokyo
 future: true
@@ -15,6 +15,8 @@ rakuten_affiliate_id: "589d2316.9e3179a4.589d2317.3eb9397c"
 exclude:
   - AUTOPOST.md
   - README.md
+  - Gemfile
+  - Gemfile.lock
   - team
   - scripts
 date_format: "%Y.%m.%d"
