@@ -16,7 +16,7 @@
     <p class="pickup-title">{{ p.title }}</p>
     {%- if p.big %}<p class="pickup-big">{{ p.big }}</p>{% if p.big_note %}<p class="pickup-bignote">{{ p.big_note }}</p>{% endif %}{% endif %}
     {%- if p.detail %}<p class="pickup-detail">{{ p.detail }}</p>{% endif %}
-    {%- if p.reason %}<p class="pickup-reason"><strong>ここを推す理由</strong>{{ p.reason }}</p>{% endif %}
+    {%- if p.reason %}<p class="pickup-reason"><strong>運営者メモ</strong>{{ p.reason }}</p>{% endif %}
     {%- if p.code %}
     <div class="pickup-code"><span>クーポンコード</span><code>{{ p.code }}</code><button type="button" data-copy="{{ p.code }}">コピー</button></div>
     {%- endif %}
@@ -29,9 +29,8 @@
 {%- endcapture -%}
 {%- if shown > 0 -%}
 <section class="pickup-wrap"><div class="wrap">
-  <p class="pickup-en">NOW PICK UP</p>
-  <h2 class="pickup-head">いま、これだけは<em>見逃さないで</em></h2>
-  <p class="pickup-sub">期間限定で本当にお得なものだけ。終わったら自動で消えます。</p>
+  <p class="pickup-en">ON SALE</p>
+  <h2 class="pickup-head">開催中のセール・キャンペーン</h2>
   <div class="pickup-list">{{ items }}</div>
 </div></section>
 <script>

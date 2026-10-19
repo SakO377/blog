@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  {%- if page.noindex %}<meta name="robots" content="noindex">{% endif -%}
   {%- unless page.image -%}
   {%- assign ogc = page.categories[0] | default: page.slug | default: 'otoku' -%}
   <meta property="og:image" content="{{ '/assets/img/og/' | append: ogc | append: '.png' | absolute_url }}">

@@ -53,7 +53,7 @@ description: "2026年10月24日(土)20時〜27日(火)1:59のお買い物マラ�
 
 このケーブルは「1,000円〜」の表示で全国送料無料です。USB Type-Cの急速充電（60W）に対応していて、iPhone用のLightningなども選べます。2026年10月19日時点でレビューは698件、平均4.48でした。気になる点は、選ぶ種類によって価格が変わることです。
 
-{% include rakuten.html item="oshiri:1-250" keyword="タイプC ケーブル 2本 急速充電" note="全国送料無料・2本セット" %}
+{% include rakuten.html item="oshiri:1-250" keyword="タイプC ケーブル 2本 急速充電" img="https://shop.r10s.jp/oshiri/cabinet/09508557/09538513/imgrc0076659851.jpg" name="急速60W タイプCケーブル 2本セット（oshiri）" spec="1m・1.5m・2m、Lightningも選べる" note="全国送料無料・2本セット" %}
 
 格安SIMに乗り換えてスマホ代を下げた人は、浮いたお金で小物をそろえるのにもちょうどいい時期です。IIJmioについては[使っている人の正直レビュー](/sim/2026/10/19/iijmio-review/)にまとめています。
 
@@ -61,9 +61,9 @@ description: "2026年10月24日(土)20時〜27日(火)1:59のお買い物マラ�
 
 10月の終わりから朝晩が冷えてきます。靴下はサイズさえ合えば失敗が少なく、家族の分を足して金額を調整しやすいです。
 
-この日本製のウール靴下は3足セットで、メール便で全国送料無料です。サイズは23〜25cmなので、足の大きい人には合いません。メール便のため、届く時間は選べません。
+この日本製のウール靴下（レディース）は3足セットで、メール便で全国送料無料です。サイズは23〜25cmなので、足の大きい人には合いません。メール便のため、届く時間は選べません。
 
-{% include rakuten.html item="peacekoubou:20-3set" keyword="ウール 靴下 3足 日本製" note="メール便で送料無料・3足セット" %}
+{% include rakuten.html item="peacekoubou:20-3set" keyword="ウール 靴下 3足 日本製" img="https://shop.r10s.jp/peacekoubou/cabinet/leg/20-3set_01.jpg" name="あったかバルキーウール靴下 3足セット（Peace工房）" spec="レディース 23〜25cm・日本製" note="メール便で送料無料・3足セット" %}
 
 ### 食品：素焼きナッツ
 
@@ -71,7 +71,7 @@ description: "2026年10月24日(土)20時〜27日(火)1:59のお買い物マラ�
 
 この無塩の素焼きアーモンドは「訳あり」品で、メール便限定で送料無料です。訳ありなので、形や見た目にばらつきがあると考えておきましょう。
 
-{% include rakuten.html item="onomichi:700almw-11013" keyword="素焼きアーモンド 無塩 700g" note="メール便で送料無料・700g" %}
+{% include rakuten.html item="onomichi:700almw-11013" keyword="素焼きアーモンド 無塩 700g" img="https://shop.r10s.jp/onomichi/cabinet/sgwb/almw700-main.jpg" name="訳あり 素焼きアーモンド 無塩 700g" spec="無塩・素焼き・700g" note="メール便で送料無料・700g" %}
 
 ### 飲み物：ドリップコーヒー
 
@@ -79,7 +79,7 @@ description: "2026年10月24日(土)20時〜27日(火)1:59のお買い物マラ�
 
 1,000円台より少し高めになることがあるので、価格を見てから決めてください。
 
-{% include rakuten.html item="gourmetcoffee:1008" keyword="ドリップコーヒー お試し 80杯" note="送料無料・合計80杯分" %}
+{% include rakuten.html item="gourmetcoffee:1008" keyword="ドリップコーヒー お試し 80杯" img="https://shop.r10s.jp/gourmetcoffee/cabinet/1000/1008r.jpg" name="ドリップコーヒー お試し5種 80杯分（加藤珈琲店）" spec="個包装・5種類・合計80杯" note="送料無料・合計80杯分" %}
 
 ### 「1000円ポッキリ」の商品は要注意
 

@@ -1,6 +1,7 @@
 {%- comment -%}
 使い方: {% include rakuten.html keyword="ロボット掃除機 薄型" note="楽天ポイントが貯まる" label="楽天市場で今の価格を見る" %}
 特定の商品にするときは item="ショップID:商品ID"（item.rakuten.co.jp/ショップID/商品ID/ の部分）を足す。
+写真つきカードにするときは img="商品ページのog:image（shop.r10s.jp や thumbnail.image.rakuten.co.jp のURL）" name="短い商品名" を足す。spec="サイズ・重さなど一言" も書ける。
 楽天APIのキーがあれば写真・価格・レビューつきの商品カードになり、なければボタンだけになる。
 {%- endcomment -%}
 {%- assign kw = include.keyword | url_encode -%}
@@ -13,7 +14,14 @@
 {%- if site.rakuten_affiliate_id != "" -%}
 {%- capture href -%}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ target | url_encode }}&m={{ target | url_encode }}{%- endcapture -%}
 {%- else -%}{%- assign href = target -%}{%- endif -%}
-<div class="item-box" data-keyword="{{ include.keyword | escape }}"{% if include.item %} data-item="{{ include.item | escape }}"{% endif %}>
+<div class="item-box{% if include.img %} has-card{% endif %}" data-keyword="{{ include.keyword | escape }}"{% if include.item %} data-item="{{ include.item | escape }}"{% endif %}>
   {%- if include.note %}<p class="item-note">{{ include.note }}</p>{% endif %}
+  {%- if include.img and include.name %}
+  <a class="item-card" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">
+    <div class="item-img"><img src="{{ include.img }}" alt="{{ include.name | escape }}" loading="lazy"></div>
+    <div class="item-info"><p class="item-name">{{ include.name }}</p>{% if include.spec %}<p class="item-meta">{{ include.spec }}</p>{% endif %}{% if include.price %}<p class="item-price">{{ include.price }}<small>{{ include.price_note | default: "円（税込）" }}</small></p>{% endif %}<span class="item-btn">{{ include.label | default: "楽天市場で今の価格を見る" }}</span></div>
+  </a>
+  {%- else %}
   <a class="btn-rakuten" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">{{ include.label | default: "楽天市場で今の価格を見る" }}</a>
+  {%- endif %}
 </div>

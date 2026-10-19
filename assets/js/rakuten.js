@@ -21,6 +21,7 @@
         img = img.replace('?_ex=128x128', '?_ex=300x300');
         var link = it.affiliateUrl || it.itemUrl;
         var btn = box.querySelector('a.btn-rakuten');
+        if (box.classList.contains('has-card')) return; // 写真つきカードは手で入れたものを残す
         var note = box.querySelector('.item-note');
         var d = new Date(); var day = (d.getMonth() + 1) + '月' + d.getDate() + '日';
         var rev = it.reviewCount ? '★' + it.reviewAverage + '（レビュー' + Number(it.reviewCount).toLocaleString() + '件）' : '';
