@@ -5,7 +5,6 @@ baseurl: "/blog"
 lang: ja
 timezone: Asia/Tokyo
 future: true
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -13,14 +12,17 @@ plugins:
 permalink: /:categories/:year/:month/:day/:title/
 # 楽天アフィリエイトIDを取得したらここに入れる（例: "1a2b3c4d.5e6f7a8b.1a2b3c4e.5f6a7b8c"）
 rakuten_affiliate_id: "589d2316.9e3179a4.589d2317.3eb9397c"
-header_pages:
-  - categories.md
-  - about.md
-  - privacy.md
-minima:
-  date_format: "%Y年%m月%d日"
 exclude:
   - AUTOPOST.md
   - README.md
   - team
   - scripts
+date_format: "%Y.%m.%d"
+# 楽天ウェブサービスの「Webアプリケーション」で取得した値（商品カードの写真・価格の表示に使う）
+rakuten_app_id: ""
+rakuten_access_key: ""
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+  - scope: { path: "", type: posts }
+    values: { layout: post }

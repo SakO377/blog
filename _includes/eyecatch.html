@@ -1,0 +1,2 @@
+{%- assign p = include.post | default: page -%}
+{%- if p.image -%}{{ p.image | relative_url }}{%- else -%}{{ '/assets/img/cat/' | append: p.categories[0] | append: '.svg' | relative_url }}{%- endif -%}

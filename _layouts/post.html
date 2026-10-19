@@ -1,37 +1,26 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: site.minima.date_format }}</time>
-      {%- for c in page.categories -%}
-        {%- assign cat = site.data.categories | where: "slug", c | first -%}
-        ・<a href="{{ '/category/' | append: c | append: '/' | relative_url }}">{{ cat.name | default: c }}</a>
-      {%- endfor -%}
-    </p>
-  </header>
+{%- assign cat = site.data.categories | where: "slug", page.categories[0] | first -%}
+<article class="wrap narrow article">
+  <nav class="crumb"><a href="{{ '/' | relative_url }}">ホーム</a> › <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a></nav>
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+  <p class="post-meta"><span class="chip chip-{{ cat.slug }}">{{ cat.name }}</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time></p>
+  <img class="eyecatch" src="{% include eyecatch.html %}" alt="">
   {% include pr.html %}
   {%- if page.expires -%}
     {%- assign now = site.time | date: '%s' | plus: 0 -%}
     {%- assign exp = page.expires | date: '%s' | plus: 86400 -%}
     {%- if now > exp -%}
-  <p style="background:#fff3cd;border:1px solid #e0c36c;padding:8px 12px;border-radius:4px;">⚠️ この記事で紹介しているキャンペーンは {{ page.expires | date: '%Y年%m月%d日' }} に終了しました。最新の情報は公式ページで確認してください。</p>
+  <div class="deadline ended"><span class="deadline-label">終了</span><span>このキャンペーンは{{ page.expires | date: '%-m月%-d日' }}で終了しました。最新の内容は公式サイトでご確認ください。</span></div>
     {%- else -%}
-  <p style="background:#e8f5e9;border:1px solid #9ccc9c;padding:8px 12px;border-radius:4px;">⏰ このキャンペーンは <strong>{{ page.expires | date: '%Y年%m月%d日' }}まで</strong> です。</p>
+  <div class="deadline"><span class="deadline-label">期間限定</span><span>キャンペーンは <strong>{{ page.expires | date: "%Y年%-m月%-d日" }}まで</strong></span></div>
     {%- endif -%}
   {%- endif -%}
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <div class="post-content">{{ content }}</div>
   {%- assign related = site.categories[page.categories[0]] | where_exp: "p", "p.url != page.url" -%}
   {%- if related.size > 0 -%}
-  <h2>同じカテゴリの記事</h2>
-  <ul>
-  {%- for p in related limit: 5 -%}
-    <li><a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a></li>
-  {%- endfor -%}
-  </ul>
+  <h2 class="sec-title">あわせて読みたい</h2>
+  <div class="cards small">{% for p in related limit: 4 %}{% include card.html post=p %}{% endfor %}</div>
   {%- endif -%}
 </article>

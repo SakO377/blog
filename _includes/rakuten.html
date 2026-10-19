@@ -1,12 +1,13 @@
 {%- comment -%}
-使い方: {% include rakuten.html keyword="ロボット掃除機" label="楽天市場でロボット掃除機を見る" %}
-rakuten_affiliate_id が空のときは普通の楽天検索リンクになる
+使い方: {% include rakuten.html keyword="ロボット掃除機 薄型" label="楽天市場で薄型のロボット掃除機を見る" %}
+特定の商品にしたいときは item="ショップID:商品ID"（楽天の商品ページURLの item.rakuten.co.jp/ショップID/商品ID/）を足す。
+楽天APIのキーがあれば写真・価格つきの商品カードになり、なければ検索ボタンになる。
 {%- endcomment -%}
 {%- assign kw = include.keyword | url_encode -%}
 {%- capture target -%}https://search.rakuten.co.jp/search/mall/{{ kw }}/{%- endcapture -%}
 {%- if site.rakuten_affiliate_id != "" -%}
 {%- capture href -%}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ target | url_encode }}&m={{ target | url_encode }}{%- endcapture -%}
-{%- else -%}
-{%- assign href = target -%}
-{%- endif -%}
-<p><a href="{{ href }}" target="_blank" rel="nofollow sponsored noopener" style="display:inline-block;background:#bf0000;color:#fff;padding:8px 16px;border-radius:6px;text-decoration:none;">{{ include.label | default: "楽天市場で探す" }}</a></p>
+{%- else -%}{%- assign href = target -%}{%- endif -%}
+<div class="item-box" data-keyword="{{ include.keyword | escape }}"{% if include.item %} data-item="{{ include.item | escape }}"{% endif %}>
+  <a class="btn-rakuten" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">{{ include.label | default: "楽天市場で探す" }}</a>
+</div>

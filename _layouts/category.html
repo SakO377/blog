@@ -2,10 +2,7 @@
 layout: default
 ---
 {%- assign cat = site.data.categories | where: "slug", page.slug | first -%}
-<h1>{{ cat.name }}</h1>
-<ul class="post-list">
-{%- for post in site.categories[page.slug] -%}
-  <li><span class="post-meta">{{ post.date | date: site.minima.date_format }}</span>
-  <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3></li>
-{%- endfor -%}
-</ul>
+<div class="cat-hero" style="background-image:url('{{ '/assets/img/cat/' | append: page.slug | append: '.svg' | relative_url }}')"><div class="wrap"><h1>{{ cat.name }}</h1></div></div>
+<div class="wrap">
+  <div class="cards">{% for post in site.categories[page.slug] %}{% include card.html post=post %}{% endfor %}</div>
+</div>
