@@ -7,6 +7,9 @@ author:
   name: えらびかたノート編集部
 logo: /assets/img/og/otoku.png
 timezone: Asia/Tokyo
+# Google Search Console の所有権確認（消さない）
+webmaster_verifications:
+  google: "SNCyaXB-NROUyc8n-8TKrwNN9EeG2vZWgTVQZQ-ESwI"
 future: true
 plugins:
   - jekyll-feed
