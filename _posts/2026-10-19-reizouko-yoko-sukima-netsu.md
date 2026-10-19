@@ -13,7 +13,7 @@ description: "冷蔵庫の横にすき間ワゴンを置いても、冷蔵庫と
 
 壁とのすき間に置くなら、幅を1cm刻みで選べる「すき間ワゴン」。冷蔵庫の外側（部屋に面している側）が空いているなら、山崎実業の「マグネット冷蔵庫サイドラック タワー」を貼るほうが早くて安いです。
 
-{% include rakuten.html item="roomy:ymz15oct15z081" keyword="山崎実業 マグネット冷蔵庫サイドラック タワー" note="レビュー1,038件・平均4.68（2026年10月19日時点）" label="マグネット冷蔵庫サイドラック タワーを楽天で見る" %}
+{% include rakuten.html item="roomy:ymz15oct15z081" img="https://shop.r10s.jp/roomy/cabinet/500cart_all/500cart_11g/p5-4/ymz5505-iw590-0_gt01.jpg" name="山崎実業 マグネット冷蔵庫サイドラック タワー（2744/2745）" spec="約幅24.5×奥行6.5×高さ34cm・耐荷重約4kg" price="3,080" price_note="円（税込・2026年10月19日時点）" keyword="山崎実業 マグネット冷蔵庫サイドラック タワー" note="レビュー1,038件・平均4.68（2026年10月19日時点）" label="マグネット冷蔵庫サイドラック タワーを楽天で見る" %}
 
 </div>
 
@@ -81,7 +81,7 @@ description: "冷蔵庫の横にすき間ワゴンを置いても、冷蔵庫と
 
 貼るのは**部屋に面している側**にしてください。壁側に貼ると、せっかくの2cmのすき間を自分でふさぐことになります。もうひとつの注意は、側面がガラスや樹脂の冷蔵庫には付かないことです。買う前に、冷蔵庫の横に小さな磁石を当てて確かめておくと失敗しません。
 
-{% include rakuten.html item="roomy:ymz15oct15z081" keyword="山崎実業 マグネット冷蔵庫サイドラック タワー" note="3,080円・送料無料（2026年10月19日時点）" label="マグネット冷蔵庫サイドラック タワーを楽天で見る" %}
+{% include rakuten.html item="roomy:ymz15oct15z081" img="https://shop.r10s.jp/roomy/cabinet/500cart_all/500cart_11g/p5-4/ymz5505-iw590-0_gt01.jpg" name="山崎実業 マグネット冷蔵庫サイドラック タワー（2744/2745）" spec="約幅24.5×奥行6.5×高さ34cm・耐荷重約4kg" price="3,080" price_note="円（税込・2026年10月19日時点）" keyword="山崎実業 マグネット冷蔵庫サイドラック タワー" note="3,080円・送料無料（2026年10月19日時点）" label="マグネット冷蔵庫サイドラック タワーを楽天で見る" %}
 
 ### 腰の高さまでのすき間なら：ゲキカグ「隙間収納 キッチンラック スリム ロータイプ」
 
@@ -89,7 +89,7 @@ description: "冷蔵庫の横にすき間ワゴンを置いても、冷蔵庫と
 
 気になるのは、レビューにあった「キャスターを付けるとグラつく」という声です。高さがあまりない分まだましですが、重い2Lペットボトルは下の段に入れたほうが安定します。
 
-{% include rakuten.html item="gekiyasukaguya:kitchen0042" keyword="隙間収納 キッチンラック スリム ロータイプ" note="幅10〜20cmを2cm刻みで選べる" label="スリムラック ロータイプを楽天で見る" %}
+{% include rakuten.html item="gekiyasukaguya:kitchen0042" img="https://shop.r10s.jp/gekiyasukaguya/cabinet/500images33/a250531yn1401g.jpg" name="ゲキカグ 隙間収納 キッチンラック スリム ロータイプ" spec="幅10〜20cm・奥行約55×高さ約90cm・棚の耐荷重約5kg" price="6,480〜" price_note="円（税込・2026年10月19日時点）" keyword="隙間収納 キッチンラック スリム ロータイプ" note="幅10〜20cmを2cm刻みで選べる" label="スリムラック ロータイプを楽天で見る" %}
 
 ### 天井近くまで使いたいなら：eco家具「リバーシブルすき間ワゴン」
 
@@ -97,7 +97,7 @@ description: "冷蔵庫の横にすき間ワゴンを置いても、冷蔵庫と
 
 背が高いぶん、ストックをまとめてしまえるのが強みです。ただし組み立てに「2人で1時間くらいかかった」というレビューがあり、一人暮らしだと少し大変かもしれません。地震のときに倒れないよう、上のほうに重い物を入れないことも大事です。
 
-{% include rakuten.html item="auc-ecokagu:10000487" keyword="リバーシブルすき間ワゴン" note="幅10〜24cm・高さ181cm" label="リバーシブルすき間ワゴンを楽天で見る" %}
+{% include rakuten.html item="auc-ecokagu:10000487" img="https://shop.r10s.jp/auc-ecokagu/cabinet/09912542/imgrc0120901726.jpg" name="eco家具 リバーシブルすき間ワゴン" spec="幅10〜24cm・奥行44/55cm・高さ181cm" price="13,900〜" price_note="円（税込・2026年10月19日時点）" keyword="リバーシブルすき間ワゴン" note="幅10〜24cm・高さ181cm" label="リバーシブルすき間ワゴンを楽天で見る" %}
 
 ## よくある質問
 

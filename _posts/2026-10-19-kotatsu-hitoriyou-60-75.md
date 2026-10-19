@@ -13,7 +13,7 @@ description: "一人暮らしのこたつは、ごはんとスマホだけなら
 
 6畳でベッドを置いている部屋なら、まず60cmで考えるのがおすすめです。こたつ布団まで入れると、床は天板よりずっと広く使うからです。
 
-{% include rakuten.html item="e-kurashi:x1s80" keyword="山善 こたつ 60×60 布団セット" note="60cm角・布団つき。レビュー68件・平均4.56（2026年10月19日時点）" label="山善の60cmこたつセットを楽天で見る" %}
+{% include rakuten.html item="e-kurashi:x1s80" img="https://shop.r10s.jp/e-kurashi/cabinet/main-img/007/main-x1s80.jpg" name="山善 こたつ 60×60cm 布団セット（LCR-6060）" spec="60×60×高さ38.5cm・300W・布団160×160cm" price="10,999〜" price_note="円（税込・2026年10月19日時点）" keyword="山善 こたつ 60×60 布団セット" note="60cm角・布団つき。レビュー68件・平均4.56（2026年10月19日時点）" label="山善の60cmこたつセットを楽天で見る" %}
 
 </div>
 
@@ -68,7 +68,7 @@ description: "一人暮らしのこたつは、ごはんとスマホだけなら
 
 気になる点は、レビューに「布団が少し薄い」という声があることです。寒い地域なら、敷き布団か下にラグを足すつもりでいたほうがいいでしょう。
 
-{% include rakuten.html item="e-kurashi:x1s80" keyword="山善 こたつ 60×60 布団セット" note="10,999円〜（2026年10月19日時点）" label="山善の60cmこたつセットを楽天で見る" %}
+{% include rakuten.html item="e-kurashi:x1s80" img="https://shop.r10s.jp/e-kurashi/cabinet/main-img/007/main-x1s80.jpg" name="山善 こたつ 60×60cm 布団セット（LCR-6060）" spec="60×60×高さ38.5cm・300W・布団160×160cm" price="10,999〜" price_note="円（税込・2026年10月19日時点）" keyword="山善 こたつ 60×60 布団セット" note="10,999円〜（2026年10月19日時点）" label="山善の60cmこたつセットを楽天で見る" %}
 
 ### 天板だけ欲しいなら：生活創造屋 60×60cm リバーシブル天板こたつ
 
@@ -76,7 +76,7 @@ description: "一人暮らしのこたつは、ごはんとスマホだけなら
 
 ただし、レビューには「使い始めのにおいが強い」という声が複数ありました。お店も、においを理由にした返品は受けないと書いています。においに弱い人は、別の商品にしたほうが安心です。
 
-{% include rakuten.html item="seikotsu:10000800" keyword="こたつ 60×60 リバーシブル天板 一人用" note="8,480円・400Wヒーター（2026年10月19日時点）" label="60cmリバーシブル天板こたつを楽天で見る" %}
+{% include rakuten.html item="seikotsu:10000800" img="https://shop.r10s.jp/seikotsu/cabinet/25kotatu/10000800.jpg" name="生活創造屋 60×60cm リバーシブル天板こたつ" spec="60×60×高さ38.5cm・400W・サーモスタットつき" price="8,480" price_note="円（税込・2026年10月19日時点）" keyword="こたつ 60×60 リバーシブル天板 一人用" note="8,480円・400Wヒーター（2026年10月19日時点）" label="60cmリバーシブル天板こたつを楽天で見る" %}
 
 ### パソコンも使うなら：山善 京都絞 こたつセット 75×75cm
 
@@ -84,7 +84,7 @@ description: "一人暮らしのこたつは、ごはんとスマホだけなら
 
 6畳でベッドもある部屋だと、布団を広げたときに狭く感じるかもしれません。買う前に、上の「布団の幅＋30cm」を測っておいてください。
 
-{% include rakuten.html item="e-kurashi:1439543" keyword="山善 京都絞 こたつセット 75×75" note="8,499円〜・レビュー2,166件（2026年10月19日時点）" label="山善の75cmこたつセットを楽天で見る" %}
+{% include rakuten.html item="e-kurashi:1439543" img="https://shop.r10s.jp/e-kurashi/cabinet/main-img/018/main-r8e49.jpg" name="山善 京都絞 こたつセット 75×75cm" spec="75×75×高さ39cm・300W（MS-303H）" price="8,499〜" price_note="円（税込・2026年10月19日時点）" keyword="山善 京都絞 こたつセット 75×75" note="8,499円〜・レビュー2,166件（2026年10月19日時点）" label="山善の75cmこたつセットを楽天で見る" %}
 
 ## よくある質問
 
