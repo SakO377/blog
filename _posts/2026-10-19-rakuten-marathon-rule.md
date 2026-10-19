@@ -18,7 +18,7 @@ description: "お買い物マラソンの1,000円以上はクーポン後・送�
 
 <div class="method" markdown="1">
 
-**この記事の調べ方**：楽天市場公式の[お買い物マラソンのガイド](https://event.rakuten.co.jp/campaign/point-up/marathon/guide/){:target="_blank" rel="nofollow noopener"}と、[ふるさと納税のお知らせ](https://event.rakuten.co.jp/furusato/notice/20250901/){:target="_blank" rel="nofollow noopener"}を2026年10月19日に読んでまとめました。実際の購入画面で試したわけではありません。
+楽天市場公式の[お買い物マラソンのガイド](https://event.rakuten.co.jp/campaign/point-up/marathon/guide/){:target="_blank" rel="nofollow noopener"}と、[ふるさと納税のお知らせ](https://event.rakuten.co.jp/furusato/notice/20250901/){:target="_blank" rel="nofollow noopener"}を2026年10月19日に読んでまとめました。実際の購入画面で試したわけではありません。
 
 </div>
 
