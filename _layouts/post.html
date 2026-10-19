@@ -13,6 +13,15 @@ layout: default
     </p>
   </header>
   {% include pr.html %}
+  {%- if page.expires -%}
+    {%- assign now = site.time | date: '%s' | plus: 0 -%}
+    {%- assign exp = page.expires | date: '%s' | plus: 86400 -%}
+    {%- if now > exp -%}
+  <p style="background:#fff3cd;border:1px solid #e0c36c;padding:8px 12px;border-radius:4px;">⚠️ この記事で紹介しているキャンペーンは {{ page.expires | date: '%Y年%m月%d日' }} に終了しました。最新の情報は公式ページで確認してください。</p>
+    {%- else -%}
+  <p style="background:#e8f5e9;border:1px solid #9ccc9c;padding:8px 12px;border-radius:4px;">⏰ このキャンペーンは <strong>{{ page.expires | date: '%Y年%m月%d日' }}まで</strong> です。</p>
+    {%- endif -%}
+  {%- endif -%}
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
