@@ -270,3 +270,20 @@ details.faq summary::before{font-family:var(--en);font-weight:800}
 .item-card .item-name{font-family:var(--head);font-weight:700;font-size:15px}
 .item-card .item-btn{background:var(--rakuten);color:#fff;border-radius:6px;font-size:13.5px;min-height:40px;line-height:40px;padding:0 16px;margin-top:4px}
 @media(max-width:480px){.item-card{flex-direction:row;text-align:left;gap:12px;padding:12px}.item-card .item-img{flex:0 0 96px;height:96px}.item-card .item-img img{max-height:96px}.item-card .item-btn{display:block;text-align:center}}
+.sec-more{float:right;font-family:var(--head);font-size:13px;font-weight:700;color:var(--sub);margin-top:22px;text-decoration:none}
+.salecal{list-style:none;margin:0 0 8px;padding:0;background:#fff;border:1px solid var(--line);border-radius:10px}
+.salecal-item{display:flex;align-items:center;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.salecal-item:last-child{border-bottom:0}
+.salecal-date{flex:none;width:52px;text-align:center;font-family:var(--en);line-height:1;color:var(--ink)}
+.salecal-date .m{display:block;font-size:12px;font-weight:600;color:var(--sub)}.salecal-date .m small{font-size:10px}
+.salecal-date .d{display:block;font-size:28px;font-weight:800;margin-top:2px}
+.salecal-body{flex:1;min-width:0}
+.salecal-body p{margin:0;line-height:1.5}
+.salecal-name{font-family:var(--head);font-weight:900;font-size:15.5px}
+.salecal-name a{color:var(--ink)}
+.salecal-tag{display:inline-block;font-family:var(--head);font-size:10.5px;font-weight:700;color:var(--sub);border:1px solid #cfcdc6;border-radius:3px;padding:0 6px;margin-left:6px;vertical-align:2px}
+.salecal-time{font-family:var(--en);font-size:12px;color:var(--sub);letter-spacing:.04em}
+.salecal-memo{font-size:12.5px;color:var(--ink)}
+.salecal-left{flex:none;font-family:var(--head);font-weight:900;font-size:13px;color:var(--accent);white-space:nowrap}
+.salecal-item.live{background:#fdf0ec}.salecal-item.live .salecal-left{background:var(--accent);color:#fff;border-radius:4px;padding:2px 8px}
+.page-content .salecal,.post-content .salecal{margin-top:16px}

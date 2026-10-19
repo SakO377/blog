@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><rect width="640" height="360" fill="#FBF3E6"/><rect y="250" width="640" height="110" fill="#D8C3A5"/><rect y="242" width="640" height="12" fill="#BFA785"/>
+<g transform="translate(120 96)"><path d="M10 30 q60 -36 120 0 l10 116 q-70 16 -140 0z" fill="#fff" stroke="#E2D3BC" stroke-width="3"/><rect x="34" y="66" width="74" height="50" rx="6" fill="#7DB36B"/><text x="71" y="99" font-size="22" font-family="sans-serif" font-weight="700" fill="#fff" text-anchor="middle">米</text></g>
+<g transform="translate(300 150)"><rect x="0" y="0" width="160" height="96" rx="10" fill="#C98A4B"/><rect x="0" y="0" width="160" height="22" rx="8" fill="#A96F35"/><rect x="58" y="44" width="44" height="22" rx="4" fill="#FBE7C6"/></g>
+<g transform="translate(486 168)"><ellipse cx="40" cy="58" rx="48" ry="22" fill="#fff" stroke="#E2D3BC" stroke-width="3"/><circle cx="22" cy="40" r="16" fill="#E8553E"/><circle cx="48" cy="34" r="16" fill="#F2A23C"/><circle cx="64" cy="46" r="14" fill="#7DB36B"/></g>
+<g fill="#F2C14E"><circle cx="560" cy="80" r="9"/><circle cx="80" cy="64" r="7"/></g></svg>

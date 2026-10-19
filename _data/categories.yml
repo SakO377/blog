@@ -1,15 +1,20 @@
-# 客層：20〜30代の一人暮らし（2026-10-19 朔丸の指示で5つにしぼった）
+# 客層：家族の買い物をする主婦層（30〜50代）。節約・お得が中心（2026-10-19 朔丸が決定）
 # slug は記事の categories に使う英字名。hidden: true はメニューに出さない（新しい記事は書かない）
-- slug: kaden
-  name: 一人暮らしの家電
-- slug: hitorigurashi
-  name: 部屋づくり・便利グッズ
-- slug: kitchen
-  name: キッチン・自炊
-- slug: sim
-  name: スマホ代を下げる
 - slug: otoku
-  name: 楽天のお得
+  name: 今週のセール・お得
+- slug: nichiyouhin
+  name: 日用品のまとめ買い
+- slug: shokuhin
+  name: 食品・お取り寄せ
+- slug: kaden
+  name: 時短家電
+- slug: kitchen
+  name: キッチン・収納
+- slug: sim
+  name: スマホ代・固定費
+- slug: hitorigurashi
+  name: 一人暮らし
+  hidden: true
 - slug: camp
   name: キャンプ・アウトドア
   hidden: true

@@ -1,0 +1,32 @@
+{%- comment -%} これからのセール一覧。include.limit で件数をしぼれる {%- endcomment -%}
+{%- assign now = site.time | date: "%Y-%m-%d %H:%M" -%}
+{%- assign lim = include.limit | default: 99 -%}
+{%- assign n = 0 -%}
+<ol class="salecal">
+{%- for s in site.data.sales -%}
+{%- if s.end >= now and n < lim -%}
+{%- assign n = n | plus: 1 -%}
+<li class="salecal-item" data-start="{{ s.start }}" data-end="{{ s.end }}">
+  <div class="salecal-date"><span class="m">{{ s.start | date: "%-m" }}<small>月</small></span><span class="d">{{ s.start | date: "%-d" }}</span></div>
+  <div class="salecal-body">
+    <p class="salecal-name">{% if s.post %}<a href="{{ s.post | relative_url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% if s.status == "予想" %}<span class="salecal-tag">予想</span>{% endif %}</p>
+    <p class="salecal-time">{{ s.start | date: "%-m/%-d %H:%M" }} 〜 {{ s.end | date: "%-m/%-d %H:%M" }}</p>
+    {%- if s.memo %}<p class="salecal-memo">{{ s.memo }}</p>{% endif %}
+  </div>
+  <span class="salecal-left"></span>
+</li>
+{%- endif -%}
+{%- endfor -%}
+</ol>
+<script>
+(function(){
+  function t(s){var m=s&&s.match(/(\d+)-(\d+)-(\d+) (\d+):(\d+)/);return m?new Date(+m[1],m[2]-1,+m[3],+m[4],+m[5]):null}
+  var now=new Date();
+  document.querySelectorAll('.salecal-item').forEach(function(el){
+    var s=t(el.dataset.start),e=t(el.dataset.end),l=el.querySelector('.salecal-left');
+    if(e&&now>e){el.remove();return}
+    if(s&&now<s){var a=new Date(now.getFullYear(),now.getMonth(),now.getDate()),b=new Date(s.getFullYear(),s.getMonth(),s.getDate()),d=Math.round((b-a)/86400000);l.textContent=d===0?'今日から':d===1?'明日から':'あと'+d+'日'}
+    else{l.textContent='開催中';el.classList.add('live')}
+  });
+})();
+</script>

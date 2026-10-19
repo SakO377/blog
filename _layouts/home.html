@@ -2,12 +2,9 @@
 layout: default
 ---
 {% include pickup.html %}
-<section class="hero"><div class="wrap">
-  <p class="hero-lead">SHOPPING GUIDE</p>
-  <h1>失敗しない<span>選び方</span>と、<br>いま使える<span>お得</span>を。</h1>
-  <p class="hero-sub">{{ site.description }}</p>
-</div></section>
 <div class="wrap">
+  <h2 class="sec-title"><small>SALE CALENDAR</small>これからのセール<a class="sec-more" href="{{ '/sale-calendar/' | relative_url }}">すべて見る</a></h2>
+  {% include sale-calendar.html limit=4 %}
   {%- assign otoku = site.categories['otoku'] -%}
   {%- if otoku -%}
   <h2 class="sec-title"><small>DEALS</small>いま使えるお得情報</h2>
