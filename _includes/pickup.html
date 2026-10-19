@@ -12,7 +12,7 @@
 <div class="pickup" data-start="{{ sdate }}" data-end="{{ p.end }}">
   <p class="pickup-timer{% if upcoming %} soon{% endif %}"><span class="dot"></span><span class="pickup-label">{% if upcoming %}{{ sdate | date: "%-m月%-d日 %-H時" }}スタート{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
   <div class="pickup-in">
-    <span class="pickup-rank">推し No.{{ shown }}</span>
+    <span class="pickup-rank">PICK UP No.{{ shown }}</span>
     <p class="pickup-title">{{ p.title }}</p>
     {%- if p.big %}<p class="pickup-big">{{ p.big }}</p>{% if p.big_note %}<p class="pickup-bignote">{{ p.big_note }}</p>{% endif %}{% endif %}
     {%- if p.detail %}<p class="pickup-detail">{{ p.detail }}</p>{% endif %}
@@ -29,6 +29,7 @@
 {%- endcapture -%}
 {%- if shown > 0 -%}
 <section class="pickup-wrap"><div class="wrap">
+  <p class="pickup-en">NOW PICK UP</p>
   <h2 class="pickup-head">いま、これだけは<em>見逃さないで</em></h2>
   <p class="pickup-sub">期間限定で本当にお得なものだけ。終わったら自動で消えます。</p>
   <div class="pickup-list">{{ items }}</div>

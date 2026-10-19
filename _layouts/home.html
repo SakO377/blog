@@ -3,16 +3,16 @@ layout: default
 ---
 {% include pickup.html %}
 <section class="hero"><div class="wrap">
-  <p class="hero-lead">迷ったときの、買いもの案内</p>
-  <h1>失敗しない<span>選び方</span>と<br>いま使える<span>お得情報</span></h1>
+  <p class="hero-lead">SHOPPING GUIDE</p>
+  <h1>失敗しない<span>選び方</span>と、<br>いま使える<span>お得</span>を。</h1>
   <p class="hero-sub">{{ site.description }}</p>
 </div></section>
 <div class="wrap">
   {%- assign otoku = site.categories['otoku'] -%}
   {%- if otoku -%}
-  <h2 class="sec-title">いま使えるお得情報</h2>
+  <h2 class="sec-title"><small>DEALS</small>いま使えるお得情報</h2>
   <div class="cards">{% for post in otoku limit: 3 %}{% include card.html post=post %}{% endfor %}</div>
   {%- endif -%}
-  <h2 class="sec-title">新着記事</h2>
+  <h2 class="sec-title"><small>LATEST</small>新着記事</h2>
   <div class="cards">{% for post in site.posts limit: 12 %}{% include card.html post=post %}{% endfor %}</div>
 </div>

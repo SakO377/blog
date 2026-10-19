@@ -22,7 +22,7 @@ layout: default
   <div class="about-box">この記事は、AIで下書きを作り、公式サイトや販売ページの情報で内容を確かめて公開しています。価格やキャンペーンは変わることがあるので、購入・申し込みの前に公式ページでご確認ください。くわしくは<a href="{{ '/about/' | relative_url }}">編集方針</a>をご覧ください。</div>
   {%- assign related = site.categories[page.categories[0]] | where_exp: "p", "p.url != page.url" -%}
   {%- if related.size > 0 -%}
-  <h2 class="sec-title">あわせて読みたい</h2>
+  <h2 class="sec-title"><small>RELATED</small>あわせて読みたい</h2>
   <div class="cards small">{% for p in related limit: 4 %}{% include card.html post=p %}{% endfor %}</div>
   {%- endif -%}
 </article>
