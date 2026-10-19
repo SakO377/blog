@@ -22,8 +22,18 @@
   end: "2026-10-27 01:59"
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   rakuten: true
+  button: 楽天のページを開く
+  post: /otoku/rakuten-this-week/
+- title: 今日は5と0のつく日
+  detail: 楽天カードで払うとポイント合計4倍。エントリーは今日だけ
+  big: "4倍"
+  big_note: 楽天カード払いの合計
+  reason: 今日のエントリーは今日のうち。買う前でもあとでも、今日中に押せば対象になります。まとめ買いの本命は、マラソンと重なる10月25日です。
+  end: "2026-10-20 23:59"
+  url: https://event.rakuten.co.jp/card/pointday/
+  rakuten: true
   button: エントリーページを開く
-  post: /otoku/rakuten-marathon-1000yen/
+  post: /otoku/rakuten-this-week/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
