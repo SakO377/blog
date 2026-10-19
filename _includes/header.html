@@ -6,7 +6,7 @@
   </div>
   <nav class="cat-nav"><div class="wrap cat-nav-inner">
     {%- for cat in site.data.categories -%}
-      {%- if site.categories[cat.slug] -%}
+      {%- if site.categories[cat.slug] and cat.hidden != true -%}
       <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}"{% if page.slug == cat.slug or page.categories[0] == cat.slug %} class="active"{% endif %}>{{ cat.name }}</a>
       {%- endif -%}
     {%- endfor -%}

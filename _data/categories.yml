@@ -1,29 +1,15 @@
-# 10個のお題。slug は記事の categories に使う英字名
-- slug: ai-tools
-  name: AIツール
-- slug: gadget
-  name: ガジェット・スマホ周辺機器
+# 客層：20〜30代の一人暮らし（2026-10-19 朔丸の指示で5つにしぼった）
+# slug は記事の categories に使う英字名。hidden: true はメニューに出さない（新しい記事は書かない）
 - slug: kaden
-  name: 家電の選び方
+  name: 一人暮らしの家電
+- slug: hitorigurashi
+  name: 部屋づくり・便利グッズ
+- slug: kitchen
+  name: キッチン・自炊
+- slug: sim
+  name: スマホ代を下げる
+- slug: otoku
+  name: 楽天のお得
 - slug: camp
   name: キャンプ・アウトドア
-- slug: game
-  name: ゲーム・ゲーミングデバイス
-- slug: vod
-  name: 動画配信サービス
-- slug: sim
-  name: 格安SIM・ネット回線
-- slug: programming
-  name: プログラミング学習
-- slug: hitorigurashi
-  name: 一人暮らしの便利グッズ
-- slug: fukugyo
-  name: 副業・ブログの始め方
-- slug: otoku
-  name: お得情報・キャンペーン
-- slug: baby
-  name: ベビー・キッズ
-- slug: kitchen
-  name: 収納・キッチン
-- slug: kisetsu
-  name: 季節・ギフト
+  hidden: true
