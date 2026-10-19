@@ -263,3 +263,10 @@ details.faq summary::before{font-family:var(--en);font-weight:800}
 .card-cat{display:none;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--accent)}
 @media(max-width:640px){.cards:not(.small) .card-cat{display:block;line-height:1.4;margin-bottom:2px}}
 .card-body h3{letter-spacing:.01em}.post-title,.post-content h2{letter-spacing:.01em}
+.item-box.has-card{text-align:left}
+.item-card{background:#fff;border:1px solid var(--line);align-items:center}
+.item-card .item-img{flex:0 0 112px;height:112px;background:#fff}
+.item-card .item-img img{max-height:112px;width:auto;margin:0 auto}
+.item-card .item-name{font-family:var(--head);font-weight:700;font-size:15px}
+.item-card .item-btn{background:var(--rakuten);color:#fff;border-radius:6px;font-size:13.5px;min-height:40px;line-height:40px;padding:0 16px;margin-top:4px}
+@media(max-width:480px){.item-card{flex-direction:row;text-align:left;gap:12px;padding:12px}.item-card .item-img{flex:0 0 96px;height:96px}.item-card .item-img img{max-height:96px}.item-card .item-btn{display:block;text-align:center}}
