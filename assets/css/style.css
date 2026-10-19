@@ -125,20 +125,32 @@ details.toc a{color:var(--ink);text-decoration:none}
 .btn-rakuten{min-height:48px;line-height:22px}
 .about-box{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;font-size:13px;color:var(--sub)}
 .item-box{min-height:56px}
-.pickup-wrap{background:#2b2d3a;padding:18px 0 22px}
-.pickup-head{margin:0 0 12px;color:#fff;font-family:"M PLUS Rounded 1c",sans-serif;font-size:17px;font-weight:800;display:flex;align-items:center;gap:8px}
-.pickup-head::before{content:"";width:6px;height:18px;border-radius:3px;background:var(--accent2)}
+.pickup-wrap{background:linear-gradient(160deg,#2b2d3a 0%,#3a2630 100%);padding:20px 0 24px}
+.pickup-head{margin:0;color:#fff;font-family:"M PLUS Rounded 1c",sans-serif;font-size:21px;font-weight:800;line-height:1.4}
+.pickup-head em{font-style:normal;color:var(--accent2)}
+.pickup-sub{margin:4px 0 14px;color:#c9cad6;font-size:12.5px}
 .pickup-list{display:flex;gap:12px;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;padding-bottom:4px;scrollbar-width:none}
-.pickup{flex:0 0 min(86%,340px);scroll-snap-align:start;background:#fff;border-radius:14px;padding:14px 16px 16px;border-top:5px solid var(--accent);display:flex;flex-direction:column}
+.pickup{flex:0 0 min(88%,360px);scroll-snap-align:start;background:#fff;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;position:relative}
 .pickup:only-child{flex-basis:100%}
 .pickup p{margin:0}
-.pickup-when{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--sub)}
-.pickup-badge{background:#e5483b;color:#fff;font-weight:700;font-size:11.5px;padding:1px 8px;border-radius:4px}
-.pickup-title{font-weight:800;font-size:18px;line-height:1.5;margin-top:6px !important}
-.pickup-detail{font-size:14px;line-height:1.7;color:var(--ink);margin:4px 0 12px !important}
+.pickup-rank{align-self:flex-start;font-family:"M PLUS Rounded 1c",sans-serif;font-weight:800;font-size:12px;color:#fff;background:var(--ink);border-radius:4px;padding:1px 8px;margin-bottom:4px}
+.pickup-timer{display:flex;align-items:center;gap:8px;background:#e5483b;color:#fff;padding:9px 14px;font-weight:700;font-size:14px}
+.pickup-timer.soon{background:#2b2d3a}
+.pickup-timer .dot{width:9px;height:9px;border-radius:50%;background:#fff;flex:none;animation:pk 1.2s ease-in-out infinite}
+.pickup-timer b{font-size:18px;letter-spacing:.02em;font-variant-numeric:tabular-nums}
+@keyframes pk{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+.pickup-in{padding:12px 16px 16px;display:flex;flex-direction:column;flex:1}
+.pickup-title{font-weight:800;font-size:17px;line-height:1.5}
+.pickup-big{font-family:"M PLUS Rounded 1c",sans-serif;font-weight:800;font-size:44px;line-height:1.15;color:#e5483b;margin-top:6px !important;letter-spacing:.01em}
+.pickup-bignote{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:8px !important}
+.pickup-detail{font-size:13.5px;line-height:1.7;color:var(--sub);margin-bottom:10px !important}
+.pickup-reason{font-size:13.5px;line-height:1.75;background:#fff6e0;border-radius:10px;padding:10px 12px;margin-bottom:12px !important}
+.pickup-reason strong{display:block;font-size:12px;color:#b5651d;margin-bottom:2px}
 .pickup-code{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;border:2px dashed var(--accent);border-radius:10px;padding:8px 10px;margin-bottom:12px;background:#fff8f3}
 .pickup-code span{flex-basis:100%;font-size:11px;color:var(--sub)}
-.pickup-code code{flex:1;min-width:0;font-size:17px;font-weight:800;letter-spacing:.06em;color:var(--ink);word-break:break-all}
+.pickup-code code{flex:1;min-width:0;font-size:18px;font-weight:800;letter-spacing:.06em;color:var(--ink);word-break:break-all}
 .pickup-code button{border:0;background:var(--ink);color:#fff;font-weight:700;font-size:12px;border-radius:999px;padding:6px 12px;cursor:pointer}
-.pickup-btn{display:block;text-align:center;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:11px 14px;border-radius:999px;box-shadow:0 3px 0 #d9532f;margin-top:auto}
-.pickup-more{display:block;text-align:center;font-size:13px;color:var(--sub);margin-top:8px}
+.pickup-btn{display:block;text-align:center;background:#e5483b;color:#fff;text-decoration:none;font-weight:800;font-size:16px;padding:13px 14px;border-radius:999px;box-shadow:0 4px 0 #a92e24;margin-top:auto}
+.pickup-btn:active{transform:translateY(3px);box-shadow:0 1px 0 #a92e24}
+.pickup-more{display:block;text-align:center;font-size:13px;color:var(--sub);margin-top:10px}
+.pickup-end{font-size:12px;color:var(--sub);text-align:center;margin-top:8px !important}

@@ -8,36 +8,48 @@
 {%- capture href -%}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ p.url | url_encode }}&m={{ p.url | url_encode }}{%- endcapture -%}
 {%- else -%}{%- assign href = p.url -%}{%- endif -%}
 {%- assign sdate = p.start | default: "" -%}
+{%- assign upcoming = false -%}{%- if sdate != "" and sdate > now -%}{%- assign upcoming = true -%}{%- endif -%}
 <div class="pickup" data-start="{{ sdate }}" data-end="{{ p.end }}">
-  <p class="pickup-when"><span class="pickup-badge">{% if sdate != "" and sdate > now %}まもなく{% else %}開催中{% endif %}</span><span class="pickup-date">{% if sdate != "" and sdate > now %}{{ sdate | date: "%-m月%-d日 %-H時" }}から{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
-  <p class="pickup-title">{{ p.title }}</p>
-  <p class="pickup-detail">{{ p.detail }}</p>
-  {%- if p.code %}
-  <div class="pickup-code"><span>クーポンコード</span><code>{{ p.code }}</code><button type="button" data-copy="{{ p.code }}">コピー</button></div>
-  {%- endif %}
-  <a class="pickup-btn" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">{{ p.button | default: "くわしく見る" }}</a>
-  {%- if p.post %}<a class="pickup-more" href="{{ p.post | relative_url }}">使い方を記事で読む</a>{% endif %}
+  <p class="pickup-timer{% if upcoming %} soon{% endif %}"><span class="dot"></span><span class="pickup-label">{% if upcoming %}{{ sdate | date: "%-m月%-d日 %-H時" }}スタート{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
+  <div class="pickup-in">
+    <span class="pickup-rank">推し No.{{ shown }}</span>
+    <p class="pickup-title">{{ p.title }}</p>
+    {%- if p.big %}<p class="pickup-big">{{ p.big }}</p>{% if p.big_note %}<p class="pickup-bignote">{{ p.big_note }}</p>{% endif %}{% endif %}
+    {%- if p.detail %}<p class="pickup-detail">{{ p.detail }}</p>{% endif %}
+    {%- if p.reason %}<p class="pickup-reason"><strong>ここを推す理由</strong>{{ p.reason }}</p>{% endif %}
+    {%- if p.code %}
+    <div class="pickup-code"><span>クーポンコード</span><code>{{ p.code }}</code><button type="button" data-copy="{{ p.code }}">コピー</button></div>
+    {%- endif %}
+    <a class="pickup-btn" href="{{ href }}" target="_blank" rel="nofollow sponsored noopener">{{ p.button | default: "くわしく見る" }}</a>
+    {%- if p.post %}<a class="pickup-more" href="{{ p.post | relative_url }}">使い方を記事で読む</a>{% endif %}
+  </div>
 </div>
 {%- endif -%}
 {%- endfor -%}
 {%- endcapture -%}
 {%- if shown > 0 -%}
 <section class="pickup-wrap"><div class="wrap">
-  <h2 class="pickup-head">いま推しのお得</h2>
+  <h2 class="pickup-head">いま、これだけは<em>見逃さないで</em></h2>
+  <p class="pickup-sub">期間限定で本当にお得なものだけ。終わったら自動で消えます。</p>
   <div class="pickup-list">{{ items }}</div>
 </div></section>
 <script>
 (function(){
   function t(s){if(!s)return null;var m=s.match(/(\d+)-(\d+)-(\d+) (\d+):(\d+)/);return m?new Date(+m[1],m[2]-1,+m[3],+m[4],+m[5]):null}
-  var now=new Date(),left=0;
-  document.querySelectorAll('.pickup').forEach(function(el){
-    var e=t(el.dataset.end),s=t(el.dataset.start);
-    if(e&&now>e){el.remove();return}left++;
-    var b=el.querySelector('.pickup-badge'),d=el.querySelector('.pickup-date');
-    if(s&&now<s){b.textContent='まもなく';d.textContent=(s.getMonth()+1)+'月'+s.getDate()+'日 '+s.getHours()+'時から'}
-    else{b.textContent='開催中';d.textContent=(e.getMonth()+1)+'月'+e.getDate()+'日 '+e.getHours()+':'+('0'+e.getMinutes()).slice(-2)+'まで'}
-  });
-  if(!left){var w=document.querySelector('.pickup-wrap');w&&w.remove()}
+  function left(ms){var m=Math.floor(ms/60000),d=Math.floor(m/1440),h=Math.floor(m%1440/60),mi=m%60;return (d?d+'日 ':'')+h+'時間 '+('0'+mi).slice(-2)+'分'}
+  var cards=[].slice.call(document.querySelectorAll('.pickup'));
+  function tick(){
+    var now=new Date(),alive=0;
+    cards.forEach(function(el){
+      if(!el.isConnected)return;
+      var e=t(el.dataset.end),s=t(el.dataset.start),bar=el.querySelector('.pickup-timer'),lb=el.querySelector('.pickup-label');
+      if(e&&now>e){el.remove();return}alive++;
+      if(s&&now<s){bar.classList.add('soon');lb.innerHTML='スタートまで あと <b>'+left(s-now)+'</b>'}
+      else{bar.classList.remove('soon');lb.innerHTML='終了まで あと <b>'+left(e-now)+'</b>'}
+    });
+    if(!alive){var w=document.querySelector('.pickup-wrap');w&&w.remove()}
+  }
+  tick();setInterval(tick,30000);
   document.querySelectorAll('.pickup-code button').forEach(function(btn){
     btn.addEventListener('click',function(){navigator.clipboard&&navigator.clipboard.writeText(btn.dataset.copy).then(function(){btn.textContent='コピーしました';setTimeout(function(){btn.textContent='コピー'},1800)})})
   });
