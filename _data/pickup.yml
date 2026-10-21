@@ -13,17 +13,17 @@
 #   reason: 推す理由を1〜2文で。運営者の体験は team/owner.md にあるものだけ
 #   button: ボタンの文字
 #   post: /otoku/xxx/           # くわしい記事（なければ消す）
-- title: 楽天お買い物マラソン
-  detail: お店を回るほどポイントが増える、月に数回だけのイベント
-  big: "最大10倍"
-  big_note: ポイントがもらえる
-  reason: 洗剤やトイレットペーパーのまとめ買いを、この期間に寄せるだけでポイントの戻りが変わります。始まる前にエントリーだけはすませておきましょう。
-  start: "2026-10-24 20:00"
-  end: "2026-10-27 01:59"
-  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
+- title: 楽天24の5と0のつく日
+  detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
+  big: "5倍"
+  big_note: 楽天カード払いで合計
+  reason: 楽天市場の5と0のつく日（4倍）に楽天24の特典が1倍のります。税込3,980円以上で送料無料なので、日用品のまとめ買いはこの日に寄せるのがおすすめです。
+  start: "2026-10-25 00:00"
+  end: "2026-10-25 23:59"
+  url: https://24.rakuten.co.jp/campaign/5and0day/
   rakuten: true
-  button: 楽天のページを開く
-  post: /otoku/rakuten-this-week/
+  button: 楽天24のエントリーページへ
+  post: /otoku/rakuten-nichiyouhin-day/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
@@ -33,3 +33,14 @@
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
   post: /sim/2026/10/19/iijmio-review/
+- title: 楽天24の5と0のつく日（10月最後）
+  detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
+  big: "5倍"
+  big_note: 楽天カード払いで合計
+  reason: 楽天市場の5と0のつく日（4倍）に楽天24の特典が1倍のります。税込3,980円以上で送料無料なので、日用品のまとめ買いはこの日に寄せるのがおすすめです。
+  start: "2026-10-30 00:00"
+  end: "2026-10-30 23:59"
+  url: https://24.rakuten.co.jp/campaign/5and0day/
+  rakuten: true
+  button: 楽天24のエントリーページへ
+  post: /otoku/rakuten-nichiyouhin-day/

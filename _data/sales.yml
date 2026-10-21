@@ -1,29 +1,27 @@
 # これからのセール。トップの「セールカレンダー」と /sale-calendar/ に出る。end を過ぎたものは自動で消える。
 # status: 確定（公式で日程が出た）／予想（過去の日程からの予想。公式発表が出たら確定に直す）
 # 毎朝、編集長が見直す。予想の回は、楽天のエントリーページが出たら日時を直して 確定 にする。
-- name: 楽天ブランドデー
-  start: "2026-10-20 00:00"
-  end: "2026-10-21 23:59"
-  status: 確定
-  memo: 対象ブランドの対象商品が3倍（3万円以上で5倍）
-  url: https://event.rakuten.co.jp/brand/campaign/
 - name: 楽天お買い物マラソン
   start: "2026-10-24 20:00"
   end: "2026-10-27 01:59"
-  status: 確定
-  memo: お店を回るほどポイントが最大10倍。エントリー開始と上限は告知待ち
+  status: 予想
+  memo: 楽天の公式ページは10/22時点で未発表（終了しました表示）。日時・倍率は発表が出たら直す
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   post: /otoku/rakuten-this-week/
 - name: 5と0のつく日
   start: "2026-10-25 00:00"
   end: "2026-10-25 23:59"
   status: 確定
-  memo: 楽天カードで買うとポイントアップ
+  memo: 楽天カードで4倍、楽天24ならエントリー2か所で合計5倍
+  url: https://24.rakuten.co.jp/campaign/5and0day/
+  post: /otoku/rakuten-nichiyouhin-day/
 - name: 5と0のつく日
   start: "2026-10-30 00:00"
   end: "2026-10-30 23:59"
   status: 確定
-  memo: 10月最後の5と0。マラソンで買い忘れたものに
+  memo: 10月最後の5と0。楽天24は合計5倍
+  url: https://24.rakuten.co.jp/campaign/5and0day/
+  post: /otoku/rakuten-nichiyouhin-day/
 - name: ワンダフルデー
   start: "2026-11-01 00:00"
   end: "2026-11-01 23:59"
