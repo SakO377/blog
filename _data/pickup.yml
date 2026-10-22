@@ -13,6 +13,17 @@
 #   reason: 推す理由を1〜2文で。運営者の体験は team/owner.md にあるものだけ
 #   button: ボタンの文字
 #   post: /otoku/xxx/           # くわしい記事（なければ消す）
+- title: 楽天お買い物マラソン
+  detail: 1ショップ税込1,000円以上で買いまわり。エントリーは受付中
+  big: "最大10倍"
+  big_note: 買いまわりのポイント（上限7,000pt）
+  reason: 27日朝9:59までの短期決戦で、お店を回るほど倍率が上がります。25日は5と0のつく日も重なるので、日用品のまとめ買いは25日に寄せるのがおすすめです。
+  start: "2026-10-24 20:00"
+  end: "2026-10-27 09:59"
+  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
+  rakuten: true
+  button: 公式のエントリーページへ
+  post: /otoku/rakuten-marathon-1000yen/
 - title: 楽天24の5と0のつく日
   detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
   big: "5倍"

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "【10月27日1:59まで】お買い物マラソンの買いまわりに使える1,000円台の送料無料アイテム"
+title: "【10月27日9:59まで】お買い物マラソンの買いまわりに使える1,000円台の送料無料アイテム"
 date: 2026-10-19 13:00:00 +0900
-updated: 2026-10-22
+updated: 2026-10-23
 categories: [otoku]
 permalink: /otoku/rakuten-marathon-1000yen/
 expires: 2026-10-27
-description: "2026年10月24日(土)20時〜27日(火)1:59予定のお買い物マラソン向けに、送料無料で数合わせに使いやすい1,000円台の消耗品を選びました。クーポン後に1,000円を切らないコツと、期間と条件も先にまとめています。"
+description: "2026年10月24日(土)20時〜27日(火)9:59のお買い物マラソン向けに、送料無料で数合わせに使いやすい1,000円台の消耗品を選びました。クーポン後に1,000円を切らないコツと、期間と条件も先にまとめています。"
 ---
 
 <div class="conclusion" markdown="1">
 
-**今回のお買い物マラソンは、10月24日(土)20:00から10月27日(火)1:59までの予定です（10月22日時点で楽天のキャンペーンページは未公開）。** 先にエントリーして、送料無料のどうせ使う物でお店の数をそろえましょう。迷ったら、スマホの充電ケーブル、冬の靴下、ナッツのような日持ちする食品が使いやすいです。
+**今回のお買い物マラソンは、10月24日(土)20:00から10月27日(火)9:59まで。エントリーはもう始まっています。** 先にエントリーして、送料無料のどうせ使う物でお店の数をそろえましょう。迷ったら、スマホの充電ケーブル、冬の靴下、ナッツのような日持ちする食品が使いやすいです。
 
 </div>
 
@@ -21,17 +21,18 @@ description: "2026年10月24日(土)20時〜27日(火)1:59予定のお買い物�
 
 | 項目 | 内容 |
 |---|---|
-| 期間 | 2026年10月24日(土)20:00〜10月27日(火)1:59（予定） |
+| エントリー | 2026年10月22日(木)10:00〜10月27日(火)9:59 |
+| ポイントアップ期間 | 2026年10月24日(土)20:00〜10月27日(火)9:59 |
 | 最大倍率 | 最大10倍 |
 | 1店舗の条件 | クーポン後・送料抜き・税込1,000円以上 |
-| ポイントの上限 | 告知ページが出たら追記します |
-| 増えたポイント | 期間限定ポイントで、終了した翌月の15日ごろ |
+| ポイントの上限 | 7,000ポイント（期間限定ポイント） |
+| 増えたポイント | 2026年11月15日(日)ごろ、期限は12月31日(木)23:59 |
 
 </div>
 
-<p class="source">出典：<a href="https://calendar.rakuten.co.jp/cal/8657" target="_blank" rel="nofollow noopener">楽天カレンダー 2026年10月</a>、<a href="https://event.rakuten.co.jp/campaign/point-up/marathon/guide/" target="_blank" rel="nofollow noopener">お買い物マラソン ガイド</a>（2026年10月19日時点）</p>
+<p class="source">出典：<a href="https://event.rakuten.co.jp/campaign/point-up/marathon/" target="_blank" rel="nofollow noopener">楽天市場 お買い物マラソン キャンペーンページ</a>（2026年10月23日時点）、<a href="https://event.rakuten.co.jp/campaign/point-up/marathon/guide/" target="_blank" rel="nofollow noopener">お買い物マラソン ガイド</a>（2026年10月19日時点）</p>
 
-{% include cta.html url="https://event.rakuten.co.jp/campaign/point-up/marathon/" label="楽天公式のエントリーページを開く" note="10月27日1:59まで" %}
+{% include cta.html url="https://event.rakuten.co.jp/campaign/point-up/marathon/" label="楽天公式のエントリーページを開く" note="10月27日9:59まで" %}
 
 ## 買う前にやること3つ
 
@@ -95,6 +96,6 @@ description: "2026年10月24日(土)20時〜27日(火)1:59予定のお買い物�
 
 ## まとめ
 
-今回のお買い物マラソンは **10月27日(火)1:59まで** です。エントリーをすませて、送料無料のどうせ使う物で、クーポン後も1,000円以上になるようにそろえましょう。
+今回のお買い物マラソンは **10月27日(火)9:59まで** です。エントリーをすませて、送料無料のどうせ使う物で、クーポン後も1,000円以上になるようにそろえましょう。
 
-{% include cta.html url="https://event.rakuten.co.jp/campaign/point-up/marathon/" label="楽天公式のエントリーページを開く" note="10月27日1:59まで" %}
+{% include cta.html url="https://event.rakuten.co.jp/campaign/point-up/marathon/" label="楽天公式のエントリーページを開く" note="10月27日9:59まで" %}
