@@ -2,7 +2,7 @@
 layout: post
 title: "IIJmioを使っている正直レビュー｜とにかく安い！11月4日までの乗り換え特典も【2026年10月】"
 date: 2026-10-19 09:00:00 +0900
-updated: 2026-10-19
+updated: 2026-10-24
 categories: [sim]
 expires: 2026-11-04
 description: "格安SIMのIIJmioを実際に使っている運営者の感想と、2026年10月時点の料金・乗り換え特典（25GBが6か月月900円、通話定額10分＋が6か月無料）をまとめました。"
@@ -58,19 +58,18 @@ IIJmioは、ドコモやauの回線を借りてサービスを出している会
 
 ## 2026年11月4日までの乗り換え特典
 
-他社から乗り換える人（MNP）向けに、次の特典が出ています。
+新しく申し込む人や、他社から番号ごと乗り換える人（MNP）向けに、次の特典が出ています。対象はギガプランの音声SIM・音声eSIMです。
 
 | 特典 | 内容 | 期間 |
 |---|---|---|
 | 25GBプランの割引 | 月2,000円 → **月900円** | 最大6か月 |
 | 5GBプランの割引 | 月950円 → **月550円** | 最大3か月 |
-| 通話定額10分＋ | 月700円 → **無料** | 最大6か月 |
-| eSIMの初期費用 | 3,300円 → **1,650円** | 新規申し込み |
-| スマホ大特価セール | 対象スマホが一括4,980円から | 乗り換えと同時購入 |
+| 通話定額10分＋ | **0円** | 最大6か月 |
+| eSIMのプロファイル発行手数料 | **0円** | 11月4日まで |
 
-たとえば25GBと通話定額10分＋を乗り換えで申し込むと、最初の6か月は **月900円で25GB、10分以内の電話はかけ放題** です。
+たとえば25GBと通話定額10分＋をいっしょに申し込むと、最初の6か月は **月900円で25GB、10分以内の電話はかけ放題** です。申し込んだ容量を途中で変えると割引は終わります。家族で乗り換えるときの4人分の月額は[IIJmio家族乗り換え｜4人で月いくら浮く？]({{ '/sim/2026/10/24/iijmio-kazoku-norikae-campaign/' | relative_url }})で計算しています。
 
-<p class="source">2026年10月9日時点の情報（<a href="https://selectra.jp/telecom/mobile/iijmio-campaigns" target="_blank" rel="nofollow noopener">selectra</a>、<a href="https://xmobile.ne.jp/sim-review-lab/iijmio-campaign/" target="_blank" rel="nofollow noopener">エックスモバイル</a>）をもとにしています。途中でプランを変えると割引が終わるなどの条件があるので、申し込む前に公式サイトで確認してください。</p>
+<p class="source">出典: <a href="https://www.iijmio.jp/info/iij/1780386103.html" target="_blank" rel="nofollow noopener">IIJmio ハッピースマイルキャンペーン+／ハッピープライスキャンペーン+</a>、<a href="https://www.iijmio.jp/gigaplan/esim/" target="_blank" rel="nofollow noopener">IIJmio eSIM</a>、IIJmioトップページ 2026年10月24日時点。税込。</p>
 
 {% include cta.html url="https://www.iijmio.jp/campaign/" label="IIJmio公式サイトで今のキャンペーンを見る" note="25GBが6か月 月900円" %}
 

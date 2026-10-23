@@ -39,11 +39,11 @@
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
   big_note: 25GB（通常は月2,000円）
-  reason: 運営者がいま使っている格安SIMです。家族のスマホ代をまとめて下げたい人に、いちばんにすすめています。10分以内の電話がかけ放題になる通話定額も6か月無料です。
+  reason: 運営者がいま使っている格安SIMです。家族4人を同じ契約にまとめると家族割引（1回線100円引き）も重なります。10分以内の電話がかけ放題になる通話定額10分+も最大6か月0円です。
   end: "2026-11-04 23:59"
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
-  post: /sim/2026/10/19/iijmio-review/
+  post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
 - title: 楽天24の5と0のつく日（10月最後）
   detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
   big: "5倍"
@@ -55,3 +55,14 @@
   rakuten: true
   button: 楽天24のエントリーページへ
   post: /otoku/rakuten-nichiyouhin-day/
+- title: 楽天ワンダフルデー
+  detail: 先にエントリー＋その日の合計が税込3,000円以上で全ショップ対象
+  big: "3倍"
+  big_note: 全ショップのポイント
+  reason: 楽天カードがなくても3倍になる月1回の日です。エントリーしたあとの買い物だけが対象なので、朝いちばんに押してからケース買いをするのがおすすめです。
+  start: "2026-11-01 00:00"
+  end: "2026-11-01 23:59"
+  url: https://event.rakuten.co.jp/campaign/point-up/wonderfulday/
+  rakuten: true
+  button: ワンダフルデーのエントリーページへ
+  post: /otoku/rakuten-5-0-wonderful/
