@@ -13,6 +13,13 @@
 #   reason: 推す理由を1〜2文で。運営者の体験は team/owner.md にあるものだけ
 #   button: ボタンの文字
 #   post: /otoku/xxx/           # くわしい記事（なければ消す）
+#
+# 終了日が公式で「未定」「終了日は決まり次第お知らせ」のキャンペーン:
+#   end を書かずに、代わりに次の2つを書く（ほかのキーは上と同じ）。
+#   ongoing: true               # 終了日未定。「開催中・終了日は未定（◯月◯日に確認）」と出る
+#   checked: "2026-10-25"       # 必須。最後に公式ページで「まだやっている」と確かめた日
+#   checked から7日たつと自動で消える。続いていれば毎朝 checked を今日の日付に直す。
+#   checked がないと表示されない。終了日が発表されたら ongoing と checked を消して end を書く。
 - title: 楽天お買い物マラソン
   detail: 1ショップ税込1,000円以上で買いまわり。エントリーは受付中
   big: "最大10倍"
@@ -35,6 +42,16 @@
   rakuten: true
   button: 楽天24のエントリーページへ
   post: /otoku/rakuten-nichiyouhin-day/
+- title: 楽天ペイの最終日曜日
+  detail: お店で楽天ペイのコード・QR払い。エントリー不要（上限1日2,000pt）
+  big: "最大10%"
+  big_note: ポイント還元（特典8.5%＋通常最大1.5%）
+  reason: 毎月最終日曜日だけの日で、今月は今日25日。スーパーのレジでQRを見せるだけで戻りがふえます。楽天カードのタッチ払い・ネットの支払いは対象外で、西友は今日は対象外です。
+  start: "2026-10-25 00:00"
+  end: "2026-10-25 23:59"
+  url: https://pay.rakuten.co.jp/campaign/lastsunday-pointback/
+  button: 楽天ペイのキャンペーンページへ
+  post: /otoku/owaru-campaign/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"

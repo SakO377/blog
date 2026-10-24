@@ -287,3 +287,6 @@ details.faq summary::before{font-family:var(--en);font-weight:800}
 .salecal-left{flex:none;font-family:var(--head);font-weight:900;font-size:13px;color:var(--accent);white-space:nowrap}
 .salecal-item.live{background:#fdf0ec}.salecal-item.live .salecal-left{background:var(--accent);color:#fff;border-radius:4px;padding:2px 8px}
 .page-content .salecal,.post-content .salecal{margin-top:16px}
+/* 終了日未定のキャンペーン（pickup.yml の ongoing: true） */
+.pickup.ongoing .pickup-timer{background:#2f7d5b}
+.pickup.ongoing .pickup-timer .dot{animation:none}

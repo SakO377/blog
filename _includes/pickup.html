@@ -1,16 +1,27 @@
 {%- assign now = site.time | date: "%Y-%m-%d %H:%M" -%}
+{%- assign now_s = site.time | date: "%s" | plus: 0 -%}
 {%- assign shown = 0 -%}
 {%- capture items -%}
 {%- for p in site.data.pickup -%}
-{%- if p.end >= now and shown < 3 -%}
+{%- comment -%} 終了日未定（ongoing: true）は checked（最後に公式で確かめた日）から7日以内だけ出す {%- endcomment -%}
+{%- assign alive = false -%}
+{%- assign ongoing = false -%}
+{%- if p.ongoing and p.end == nil -%}
+{%- if p.checked -%}
+{%- assign ck_s = p.checked | date: "%s" | plus: 604800 -%}
+{%- if ck_s >= now_s -%}{%- assign alive = true -%}{%- assign ongoing = true -%}{%- endif -%}
+{%- endif -%}
+{%- elsif p.end >= now -%}{%- assign alive = true -%}
+{%- endif -%}
+{%- if alive and shown < 3 -%}
 {%- assign shown = shown | plus: 1 -%}
 {%- if p.rakuten and site.rakuten_affiliate_id != "" -%}
 {%- capture href -%}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ p.url | url_encode }}&m={{ p.url | url_encode }}{%- endcapture -%}
 {%- else -%}{%- assign href = p.url -%}{%- endif -%}
 {%- assign sdate = p.start | default: "" -%}
 {%- assign upcoming = false -%}{%- if sdate != "" and sdate > now -%}{%- assign upcoming = true -%}{%- endif -%}
-<div class="pickup" data-start="{{ sdate }}" data-end="{{ p.end }}">
-  <p class="pickup-timer{% if upcoming %} soon{% endif %}"><span class="dot"></span><span class="pickup-label">{% if upcoming %}{{ sdate | date: "%-m月%-d日 %-H時" }}スタート{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
+<div class="pickup{% if ongoing %} ongoing{% endif %}" data-start="{{ sdate }}" data-end="{{ p.end }}"{% if ongoing %} data-ongoing="{{ p.checked | date: '%-m月%-d日' }}"{% endif %}>
+  <p class="pickup-timer{% if upcoming %} soon{% endif %}"><span class="dot"></span><span class="pickup-label">{% if upcoming %}{{ sdate | date: "%-m月%-d日 %-H時" }}スタート{% elsif ongoing %}開催中・終了日は未定（{{ p.checked | date: "%-m月%-d日" }}に確認）{% else %}{{ p.end | date: "%-m月%-d日 %-H:%M" }}まで{% endif %}</span></p>
   <div class="pickup-in">
     <span class="pickup-rank">PICK UP No.{{ shown }}</span>
     <p class="pickup-title">{{ p.title }}</p>
@@ -46,6 +57,8 @@
       var e=t(el.dataset.end),s=t(el.dataset.start),bar=el.querySelector('.pickup-timer'),lb=el.querySelector('.pickup-label');
       if(e&&now>e){el.remove();return}alive++;
       if(s&&now<s){bar.classList.add('soon');lb.innerHTML='スタートまで あと <b>'+left(s-now)+'</b>'}
+      else if(el.dataset.ongoing){bar.classList.remove('soon');lb.textContent='開催中・終了日は未定（'+el.dataset.ongoing+'に確認）'}
+      else if(!e){return}
       else{bar.classList.remove('soon');lb.innerHTML='終了まで あと <b>'+left(e-now)+'</b>'}
     });
     if(!alive){var w=document.querySelector('.pickup-wrap');w&&w.remove()}
