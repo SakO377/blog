@@ -5,16 +5,9 @@
   start: "2026-10-24 20:00"
   end: "2026-10-27 09:59"
   status: 確定
-  memo: エントリー受付中（10/22 10:00〜）。買いまわり最大10倍・上限7,000pt、1ショップ税込1,000円以上
+  memo: 10/27(火)9:59まで。買いまわり最大10倍・上限7,000pt、1ショップ税込1,000円以上。エントリー前の買い物も対象
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   post: /otoku/rakuten-this-week/
-- name: 5と0のつく日
-  start: "2026-10-25 00:00"
-  end: "2026-10-25 23:59"
-  status: 確定
-  memo: 楽天カードで4倍、楽天24ならエントリー2か所で合計5倍
-  url: https://24.rakuten.co.jp/campaign/5and0day/
-  post: /otoku/rakuten-nichiyouhin-day/
 - name: 5と0のつく日
   start: "2026-10-30 00:00"
   end: "2026-10-30 23:59"

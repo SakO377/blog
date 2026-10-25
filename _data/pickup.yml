@@ -24,34 +24,13 @@
   detail: 1ショップ税込1,000円以上で買いまわり。エントリーは受付中
   big: "最大10倍"
   big_note: 買いまわりのポイント（上限7,000pt）
-  reason: 27日朝9:59までの短期決戦で、お店を回るほど倍率が上がります。25日は5と0のつく日も重なるので、日用品のまとめ買いは25日に寄せるのがおすすめです。
+  reason: 27日(火)朝9:59で終わります。エントリー前の買い物も、期間中にエントリーすれば対象。あと1店で倍率が上がるなら、1,000円台のケース買いで埋めるのがおすすめです。
   start: "2026-10-24 20:00"
   end: "2026-10-27 09:59"
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   rakuten: true
   button: 公式のエントリーページへ
   post: /otoku/rakuten-marathon-1000yen/
-- title: 楽天24の5と0のつく日
-  detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
-  big: "5倍"
-  big_note: 楽天カード払いで合計
-  reason: 楽天市場の5と0のつく日（4倍）に楽天24の特典が1倍のります。税込3,980円以上で送料無料なので、日用品のまとめ買いはこの日に寄せるのがおすすめです。
-  start: "2026-10-25 00:00"
-  end: "2026-10-25 23:59"
-  url: https://24.rakuten.co.jp/campaign/5and0day/
-  rakuten: true
-  button: 楽天24のエントリーページへ
-  post: /otoku/rakuten-nichiyouhin-day/
-- title: 楽天ペイの最終日曜日
-  detail: お店で楽天ペイのコード・QR払い。エントリー不要（上限1日2,000pt）
-  big: "最大10%"
-  big_note: ポイント還元（特典8.5%＋通常最大1.5%）
-  reason: 毎月最終日曜日だけの日で、今月は今日25日。スーパーのレジでQRを見せるだけで戻りがふえます。楽天カードのタッチ払い・ネットの支払いは対象外で、西友は今日は対象外です。
-  start: "2026-10-25 00:00"
-  end: "2026-10-25 23:59"
-  url: https://pay.rakuten.co.jp/campaign/lastsunday-pointback/
-  button: 楽天ペイのキャンペーンページへ
-  post: /otoku/owaru-campaign/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
@@ -61,6 +40,15 @@
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
   post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
+- title: 楽天カードの家族カード特典
+  detail: 本会員がe-NAVIで家族カードを申し込み、届いたら1回使う
+  big: "500pt"
+  big_note: 本会員にもらえる（期間限定ポイント）
+  reason: 毎月やっている特典で、10月に申し込む人のエントリーは31日(土)23:59まで。家族の買い物のポイントが本会員に集まります。前に家族カードを作ったことがある家庭と、本カードと同時に申し込む人は対象外です。
+  end: "2026-10-31 23:59"
+  url: https://www.rakuten-card.co.jp/campaign/rakuten_card/family/add/
+  button: 楽天カードのキャンペーンページへ
+  post: /otoku/2026/10/26/rakuten-card-kazoku-card-500pt/
 - title: 楽天24の5と0のつく日（10月最後）
   detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
   big: "5倍"
