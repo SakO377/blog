@@ -20,17 +20,6 @@
 #   checked: "2026-10-25"       # 必須。最後に公式ページで「まだやっている」と確かめた日
 #   checked から7日たつと自動で消える。続いていれば毎朝 checked を今日の日付に直す。
 #   checked がないと表示されない。終了日が発表されたら ongoing と checked を消して end を書く。
-- title: 楽天お買い物マラソン
-  detail: 1ショップ税込1,000円以上で買いまわり。エントリーは受付中
-  big: "最大10倍"
-  big_note: 買いまわりのポイント（上限7,000pt）
-  reason: 27日(火)朝9:59で終わります。エントリー前の買い物も、期間中にエントリーすれば対象。あと1店で倍率が上がるなら、1,000円台のケース買いで埋めるのがおすすめです。
-  start: "2026-10-24 20:00"
-  end: "2026-10-27 09:59"
-  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
-  rakuten: true
-  button: 公式のエントリーページへ
-  post: /otoku/rakuten-marathon-1000yen/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
