@@ -83,7 +83,7 @@ IIJmioが向いているのは、スマホ代を毎月とにかく安くした�
 
 <details class="faq"><summary>今のスマホはそのまま使える？</summary>
 
-多くの場合は使えます。ただ、選んだ回線（ドコモ・au）にスマホが対応していないと電波が入りにくい場所が出ます。[動作確認済み端末一覧](https://www.iijmio.jp/hdd/devices/){:target="_blank" rel="nofollow noopener"}で確認してください。
+多くの場合は使えます。ただ、選んだ回線（ドコモ・au）にスマホが対応していないと電波が入りにくい場所が出ます。<a href="https://www.iijmio.jp/hdd/devices/" target="_blank" rel="nofollow noopener">動作確認済み端末一覧</a>で確認してください。
 
 </details>
 
@@ -95,7 +95,7 @@ IIJmioが向いているのは、スマホ代を毎月とにかく安くした�
 
 <details class="faq"><summary>初期費用はいくら？</summary>
 
-2026年11月30日までのWeb申し込みは3,300円です。12月1日以降のWeb申し込みから3,850円に上がると[公式に発表](https://help.iijmio.jp/answer/6abdbc845d3c1de73a94fc9e/){:target="_blank" rel="nofollow noopener"}されています（2026年10月19日確認）。申し込むなら11月中がお得です。
+2026年11月30日までのWeb申し込みは3,300円です。12月1日以降のWeb申し込みから3,850円に上がると<a href="https://help.iijmio.jp/answer/6abdbc845d3c1de73a94fc9e/" target="_blank" rel="nofollow noopener">公式に発表</a>されています（2026年10月19日確認）。申し込むなら11月中がお得です。
 
 </details>
 

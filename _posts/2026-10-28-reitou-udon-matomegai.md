@@ -135,7 +135,7 @@ description: "冷凍うどんをイオンのネットスーパーと楽天のケ
 
 <details class="faq"><summary>うどん以外も冷凍庫にまとめて置きたい</summary>
 
-冷凍庫の空きを先に数えて、うどんのケースと同じ日に入れないほうが楽です。冷凍のお肉は[訳あり冷凍肉の小分け]({{ '/shokuhin/2026/10/23/rakuten-wakeari-reitou-niku/' | relative_url }})、冷凍庫を使わない買い置きなら[パックご飯のまとめ買い]({{ '/shokuhin/2026/10/26/pack-gohan-matomegai/' | relative_url }})も比べています。
+冷凍庫の空きを先に数えて、うどんのケースと同じ日に入れないほうが楽です。冷凍のお肉は<a href="{{ '/shokuhin/2026/10/23/rakuten-wakeari-reitou-niku/' | relative_url }}">訳あり冷凍肉の小分け</a>、冷凍庫を使わない買い置きなら<a href="{{ '/shokuhin/2026/10/26/pack-gohan-matomegai/' | relative_url }}">パックご飯のまとめ買い</a>も比べています。
 
 </details>
 

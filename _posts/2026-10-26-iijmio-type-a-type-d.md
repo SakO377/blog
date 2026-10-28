@@ -147,7 +147,7 @@ description: "IIJmioのタイプA（au回線）とタイプD（ドコモ回線�
 
 <details class="faq"><summary>新しく申し込むなら、キャンペーンはタイプで違う？</summary>
 
-11月4日23:59までの新規向けの月額割引（5ギガ・25ギガ）は、タイプDとタイプAの区別がありません。家族で申し込んだ場合の金額は[家族乗り換えの記事]({{ '/sim/2026/10/24/iijmio-kazoku-norikae-campaign/' | relative_url }})に、11月4日に終わるほかのお得は[今月終わるキャンペーン]({{ '/otoku/owaru-campaign/' | relative_url }})にまとめています。
+11月4日23:59までの新規向けの月額割引（5ギガ・25ギガ）は、タイプDとタイプAの区別がありません。家族で申し込んだ場合の金額は<a href="{{ '/sim/2026/10/24/iijmio-kazoku-norikae-campaign/' | relative_url }}">家族乗り換えの記事</a>に、11月4日に終わるほかのお得は<a href="{{ '/otoku/owaru-campaign/' | relative_url }}">今月終わるキャンペーン</a>にまとめています。
 
 </details>
 
