@@ -19,7 +19,7 @@
   start: "2026-11-04 20:00"
   end: "2026-11-11 01:59"
   status: 予想
-  memo: 2023〜2025年と同じ日程なら。エントリー開始は11/2(月)10:00ごろの予想（10/29時点で公式発表なし）
+  memo: 2023〜2025年と同じ日程なら。エントリー開始は11/2(月)10:00ごろの予想（10/30時点で公式発表なし）
   post: /otoku/rakuten-marathon/
 - name: 5と0のつく日
   start: "2026-11-05 00:00"
@@ -27,6 +27,13 @@
   status: 確定
   memo: 11月最初の5と0。楽天24は楽天カード払いで合計5倍（エントリー2か所）
   url: https://24.rakuten.co.jp/campaign/5and0day/
+  post: /otoku/rakuten-nichiyouhin-day/
+- name: 日用品・ペット用品 ポイント5倍
+  start: "2026-11-16 10:00"
+  end: "2026-11-27 09:59"
+  status: 確定
+  memo: 洗剤・紙もの・水・おむつ・ペット用品。エントリー後の買い物だけ対象、上限300pt。楽天カードなしでも可
+  url: https://event.rakuten.co.jp/genre/daily/
   post: /otoku/rakuten-nichiyouhin-day/
 - name: 育児の日（ベビー・キッズ用品）
   start: "2026-11-18 10:00"
