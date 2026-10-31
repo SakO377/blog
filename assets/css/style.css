@@ -50,6 +50,11 @@ img{max-width:100%;height:auto;display:block}
 .deadline strong{color:#e2483d;font-size:17px}
 .deadline-label{flex:none;background:#e2483d;color:#fff;font-weight:700;font-size:12px;border-radius:6px;padding:2px 10px}
 .deadline.ended{background:#f4f4f6;border-color:#dcdce3;color:var(--sub)}.deadline.ended .deadline-label{background:#9a9cab}
+.deadline-next{display:block;margin:-12px 0 24px;padding:12px 40px 12px 16px;border:2px solid var(--accent);border-radius:12px;background:#fff;color:var(--ink);text-decoration:none;position:relative;line-height:1.6}
+.deadline-next::after{content:"›";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:700;color:var(--accent)}
+.deadline-next:hover{background:#fff6f0}
+.deadline-next-label{display:block;font-size:12.5px;font-weight:700;color:var(--accent)}
+.deadline-next-title{display:block;font-size:15px;font-weight:700}
 .post-content{font-size:16.5px}
 .post-content h2{font-size:21px;line-height:1.55;margin:48px 0 18px;padding:12px 16px;background:#fff4ec;border-left:6px solid var(--accent);border-radius:6px}
 .post-content h3{font-size:18px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px dashed #ffc4ad}

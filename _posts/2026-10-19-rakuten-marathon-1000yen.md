@@ -6,6 +6,7 @@ updated: 2026-10-23
 categories: [otoku]
 permalink: /otoku/rakuten-marathon-1000yen/
 expires: 2026-10-27
+next_url: /otoku/rakuten-marathon/
 description: "2026年10月24日(土)20時〜27日(火)9:59のお買い物マラソン向けに、送料無料で数合わせに使いやすい1,000円台の消耗品を選びました。クーポン後に1,000円を切らないコツと、期間と条件も先にまとめています。"
 ---
 

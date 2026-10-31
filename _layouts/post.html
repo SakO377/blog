@@ -14,6 +14,10 @@ layout: default
     {%- assign exp = page.expires | date: '%s' | plus: 86400 -%}
     {%- if now > exp -%}
   <div class="deadline ended"><span class="deadline-label">終了</span><span>このキャンペーンは{{ page.expires | date: '%-m月%-d日' }}で終了しました。最新の内容は公式サイトでご確認ください。</span></div>
+      {%- if page.next_url -%}
+        {%- assign next_post = site.posts | where: "url", page.next_url | first -%}
+  <a class="deadline-next" href="{{ page.next_url | relative_url }}"><span class="deadline-next-label">次回・最新の記事はこちら</span>{% if next_post %}<span class="deadline-next-title">{{ next_post.title | escape }}</span>{% endif %}</a>
+      {%- endif -%}
     {%- else -%}
   <div class="deadline"><span class="deadline-label">期間限定</span><span>キャンペーンは <strong>{{ page.expires | date: "%Y年%-m月%-d日" }}まで</strong></span></div>
     {%- endif -%}

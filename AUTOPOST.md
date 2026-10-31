@@ -25,6 +25,7 @@
   description: "検索結果に出る120字くらいの説明"
   # 定番記事だけ: permalink: /otoku/rakuten-marathon/ のように日付なしのURLを指定する
   # お得記事だけ: expires: YYYY-MM-DD
+  # お得記事だけ: next_url: /otoku/…/（期限が切れたら次の回の記事へ案内する。next は Jekyll の予約語なので使わない）
   ---
   ```
 - **記事の型は `team/templates.md` から1つ選び、その見出し構成に沿って書く。** 同じ型を2日続けない。

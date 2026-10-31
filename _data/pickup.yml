@@ -29,26 +29,6 @@
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
   post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
-- title: 楽天カードの家族カード特典
-  detail: 本会員がe-NAVIで家族カードを申し込み、届いたら1回使う
-  big: "500pt"
-  big_note: 本会員にもらえる（期間限定ポイント）
-  reason: 毎月やっている特典で、10月に申し込む人のエントリーは31日(土)23:59まで。家族の買い物のポイントが本会員に集まります。前に家族カードを作ったことがある家庭と、本カードと同時に申し込む人は対象外です。
-  end: "2026-10-31 23:59"
-  url: https://www.rakuten-card.co.jp/campaign/rakuten_card/family/add/
-  button: 楽天カードのキャンペーンページへ
-  post: /otoku/2026/10/26/rakuten-card-kazoku-card-500pt/
-- title: 楽天24の5と0のつく日（10月最後）
-  detail: 洗剤・紙もの・おむつを楽天カードで。エントリーは当日2か所
-  big: "5倍"
-  big_note: 楽天カード払いで合計
-  reason: 楽天市場の5と0のつく日（4倍）に楽天24の特典が1倍のります。税込3,980円以上で送料無料なので、日用品のまとめ買いはこの日に寄せるのがおすすめです。
-  start: "2026-10-30 00:00"
-  end: "2026-10-30 23:59"
-  url: https://24.rakuten.co.jp/campaign/5and0day/
-  rakuten: true
-  button: 楽天24のエントリーページへ
-  post: /otoku/rakuten-nichiyouhin-day/
 - title: 楽天ワンダフルデー
   detail: 先にエントリー＋その日の合計が税込3,000円以上で全ショップ対象
   big: "3倍"
@@ -60,3 +40,12 @@
   rakuten: true
   button: ワンダフルデーのエントリーページへ
   post: /otoku/rakuten-5-0-wonderful/
+- title: 楽天カードの家族カード特典
+  detail: 本会員がe-NAVIで家族カードを申し込み、届いたら1回使う
+  big: "500pt"
+  big_note: 本会員にもらえる（期間限定ポイント）
+  reason: 毎月やっている特典で、11月に申し込む人のエントリーは30日(月)23:59まで。家族の買い物のポイントが本会員に集まります。前に家族カードを作ったことがある家庭と、本カードと同時に申し込む人は対象外です。
+  end: "2026-11-30 23:59"
+  url: https://www.rakuten-card.co.jp/campaign/rakuten_card/family/add/
+  button: 楽天カードのキャンペーンページへ
+  post: /otoku/2026/10/26/rakuten-card-kazoku-card-500pt/
