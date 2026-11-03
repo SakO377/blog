@@ -2,7 +2,7 @@
 layout: post
 title: "【11月4日まで】IIJmio家族乗り換え｜4人で月いくら浮く？"
 date: 2026-10-24 07:00:00 +0900
-updated: 2026-10-24
+updated: 2026-11-03
 categories: [sim]
 expires: 2026-11-04
 description: "IIJmioに家族4人で乗り換えると月いくら？5ギガ・10ギガ・25ギガの組み合わせで、11月4日までの割引と家族割引（1回線100円引き）込みの毎月の支払いを、1か月目から7か月目以降まで表にしました。"
@@ -117,7 +117,7 @@ description: "IIJmioに家族4人で乗り換えると月いくら？5ギガ・1
 
 1か月目は日割りになり、請求額より割引が大きい場合は請求額までしか引かれません。余った分を翌月へ持ちこすこともできません。
 
-初期費用は、Webからの申し込みなら11月30日まで3,300円で、12月1日から3,850円に上がります。eSIMのプロファイル発行手数料は11月4日まで0円です。JALモバイルやBIC SIMから申し込んだ回線、「25ギガプランお試し割」を使う回線は、このキャンペーンの対象外です。
+初期費用は、Webからの申し込みなら11月30日まで3,300円で、12月1日から3,850円に上がります（家族の人数ごとの差は[IIJmioの初期費用は12月から3,850円]({{ '/sim/2026/11/03/iijmio-shokihiyou-12gatsu/' | relative_url }})に表にしました）。eSIMのプロファイル発行手数料は11月4日まで0円です。JALモバイルやBIC SIMから申し込んだ回線、「25ギガプランお試し割」を使う回線は、このキャンペーンの対象外です。
 
 <p class="source">出典: <a href="https://help.iijmio.jp/answer/6abdbc845d3c1de73a94fc9e/" target="_blank" rel="nofollow noopener">IIJmio ヘルプ（初期費用）</a>、<a href="https://www.iijmio.jp/gigaplan/esim/" target="_blank" rel="nofollow noopener">IIJmio eSIM</a>、<a href="https://www.iijmio.jp/gigaplan/dataoption/" target="_blank" rel="nofollow noopener">データシェア・プレゼント</a>、<a href="https://www.iijmio.jp/hdc/guide/mnp.html" target="_blank" rel="nofollow noopener">MNPのご案内</a> 2026年10月24日時点</p>
 

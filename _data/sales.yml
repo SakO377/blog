@@ -1,18 +1,12 @@
 # これからのセール。トップの「セールカレンダー」と /sale-calendar/ に出る。end を過ぎたものは自動で消える。
 # status: 確定（公式で日程が出た）／予想（過去の日程からの予想。公式発表が出たら確定に直す）
 # 毎朝、編集長が見直す。予想の回は、楽天のエントリーページが出たら日時を直して 確定 にする。
-- name: ワンダフルデー
-  start: "2026-11-01 00:00"
-  end: "2026-11-01 23:59"
-  status: 確定
-  memo: 買う前にエントリー＋税込3,000円以上で全ショップ3倍
-  url: https://event.rakuten.co.jp/campaign/point-up/wonderfulday/
-  post: /otoku/rakuten-5-0-wonderful/
 - name: 楽天お買い物マラソン（11月）
   start: "2026-11-04 20:00"
   end: "2026-11-11 01:59"
-  status: 予想
-  memo: 2023〜2025年と同じ日程なら。エントリー開始は11/2(月)10:00ごろの予想（11/1時点で公式発表なし）
+  status: 確定
+  memo: エントリーは11/2(月)10:00から受付中（11/11 01:59まで）。最大10倍・上限7,000pt、1店税込1,000円以上
+  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   post: /otoku/rakuten-marathon/
 - name: 5と0のつく日
   start: "2026-11-05 00:00"
@@ -21,6 +15,13 @@
   memo: 11月最初の5と0。楽天24は楽天カード払いで合計5倍（エントリー2か所）
   url: https://24.rakuten.co.jp/campaign/5and0day/
   post: /otoku/rakuten-nichiyouhin-day/
+- name: 5と0のつく日
+  start: "2026-11-10 00:00"
+  end: "2026-11-10 23:59"
+  status: 確定
+  memo: マラソン中2回目の5と0。楽天カード払いで4倍（当日エントリー）。楽天24の5倍は当日のページで確認
+  url: https://event.rakuten.co.jp/card/pointday/
+  post: /otoku/rakuten-marathon/
 - name: 日用品・ペット用品 ポイント5倍
   start: "2026-11-16 10:00"
   end: "2026-11-27 09:59"
