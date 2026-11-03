@@ -6,6 +6,7 @@ updated: 2026-10-26
 categories: [otoku]
 permalink: /otoku/rakuten-5-0-wonderful/
 expires: 2026-11-01
+next_url: /otoku/rakuten-nichiyouhin-day/
 description: "楽天カードで払うなら11月1日のワンダフルデーは3倍＋カードの2倍で5倍、5と0のつく日は4倍。ただし10月25日はお買い物マラソンと重なるので別格です。税抜1万円の買い物でもらえるポイントを日付別に、カードあり・なしで計算。エントリーの順番の違いも表にしました。"
 ---
 

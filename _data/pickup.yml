@@ -20,6 +20,17 @@
 #   checked: "2026-10-25"       # 必須。最後に公式ページで「まだやっている」と確かめた日
 #   checked から7日たつと自動で消える。続いていれば毎朝 checked を今日の日付に直す。
 #   checked がないと表示されない。終了日が発表されたら ongoing と checked を消して end を書く。
+- title: 楽天お買い物マラソン（11月）
+  detail: エントリーして、1ショップ税込1,000円以上を10ショップ買いまわる
+  big: "最大10倍"
+  big_note: 買いまわりでポイント（上限7,000pt）
+  reason: 公式発表が出て日程が確定しました。エントリーは11月2日から受付中で、押す前の買い物も期間中なら対象です。5日(木)と10日(火)は5と0のつく日も重なるので、楽天カード払いの大きな買い物はこの2日に。
+  start: "2026-11-04 20:00"
+  end: "2026-11-11 01:59"
+  url: https://event.rakuten.co.jp/campaign/point-up/marathon/
+  rakuten: true
+  button: マラソンのエントリーページへ
+  post: /otoku/rakuten-marathon/
 - title: IIJmio 乗り換えキャンペーン
   detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
   big: "月900円"
@@ -29,23 +40,11 @@
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
   post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
-- title: 楽天ワンダフルデー
-  detail: 先にエントリー＋その日の合計が税込3,000円以上で全ショップ対象
-  big: "3倍"
-  big_note: 全ショップのポイント
-  reason: 楽天カードがなくても3倍になる月1回の日です。エントリーしたあとの買い物だけが対象なので、朝いちばんに押してからケース買いをするのがおすすめです。
-  start: "2026-11-01 00:00"
-  end: "2026-11-01 23:59"
-  url: https://event.rakuten.co.jp/campaign/point-up/wonderfulday/
-  rakuten: true
-  button: ワンダフルデーのエントリーページへ
-  post: /otoku/rakuten-5-0-wonderful/
 - title: 楽天カードの家族カード特典
-  detail: 本会員がe-NAVIで家族カードを申し込み、届いたら1回使う
-  big: "500pt"
-  big_note: 本会員にもらえる（期間限定ポイント）
-  reason: 毎月やっている特典で、11月に申し込む人のエントリーは30日(月)23:59まで。家族の買い物のポイントが本会員に集まります。前に家族カードを作ったことがある家庭と、本カードと同時に申し込む人は対象外です。
-  end: "2026-11-30 23:59"
+  detail: 本会員がエントリーし、家族カードを作って1回以上使う
+  big: "最大5,000pt"
+  big_note: 500pt＋対象者限定4,500pt（期間限定ポイント）
+  reason: 500ptは家族カードを作って1回使えばもらえ、4,500ptは対象者限定です。エントリーは12月10日(木)9:59まで、家族カードの申込は同じ日の23:59まで。前に家族カードを作ったことがある家庭と、本カードと同時に申し込む人は対象外です。
+  end: "2026-12-10 09:59"
   url: https://www.rakuten-card.co.jp/campaign/rakuten_card/family/add/
   button: 楽天カードのキャンペーンページへ
-  post: /otoku/2026/10/26/rakuten-card-kazoku-card-500pt/
