@@ -40,6 +40,15 @@
   url: https://www.iijmio.jp/campaign/
   button: 公式のキャンペーンを見る
   post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
+- title: 楽天カード2枚目の特典
+  detail: e-NAVIから2枚目をJCBで作り、12月31日までに合計1万円使う
+  big: "5,000pt"
+  big_note: 作って1回使うと500pt＋JCBで1万円使うと4,500pt（期間限定ポイント）
+  reason: エントリーと申込は12月10日(木)9:59まで。今の楽天カードがVISAやMastercardでも、2枚目にJCBを選べば5,000ポイントをねらえます。1枚目と同時の申込や、前に2枚目を作ったことがある人は対象外です。
+  end: "2026-12-10 09:59"
+  url: https://www.rakuten-card.co.jp/campaign/add-card/
+  button: 楽天カードのキャンペーンページへ
+  post: /otoku/2026/11/04/rakuten-card-2maime-kazoku/
 - title: 楽天カードの家族カード特典
   detail: 本会員がe-NAVIで家族カードを申し込み、届いたら1回使う
   big: "最大5,000pt"

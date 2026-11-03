@@ -6,6 +6,7 @@ updated: 2026-10-25
 categories: [otoku]
 permalink: /otoku/owaru-campaign/
 expires: 2026-11-04
+next_url: /otoku/rakuten-this-week/
 description: "10月27日(火)9:59に終わるお買い物マラソンから、楽天カード・楽天銀行・楽天ペイの月末締切、11月4日のIIJmioまで。今月終わる楽天まわりのキャンペーンを終わる順に1枚の表にし、「あとからエントリーで間に合うか」も並べました。"
 ---
 

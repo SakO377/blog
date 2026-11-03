@@ -5,6 +5,7 @@ date: 2026-10-19 09:00:00 +0900
 updated: 2026-10-24
 categories: [sim]
 expires: 2026-11-04
+next_url: /sim/2026/11/03/iijmio-shokihiyou-12gatsu/
 description: "格安SIMのIIJmioを実際に使っている運営者の感想と、2026年10月時点の料金・乗り換え特典（25GBが6か月月900円、通話定額10分＋が6か月無料）をまとめました。"
 ---
 
