@@ -2,10 +2,10 @@
 layout: post
 title: "IIJmioの初期費用は12月から3,850円｜4人なら11月中が2,200円安い"
 date: 2026-11-03 07:00:00 +0900
-updated: 2026-11-03
+updated: 2026-11-05
 categories: [sim]
 expires: 2026-11-30
-description: "IIJmioの初期費用は12月1日のWeb申込分から1回線3,300円→3,850円に。家族4人なら2,200円、5人なら2,750円の差です。11月4日まで残るeSIM半額や、初期費用0円のパッケージ申込との比べ方もまとめました。"
+description: "IIJmioの初期費用は12月1日のWeb申込分から1回線3,300円→3,850円に。家族4人なら2,200円、5人なら2,750円の差です。初期費用0円のパッケージ申込との比べ方もまとめました。"
 ---
 
 <div class="conclusion" markdown="1">
@@ -50,13 +50,11 @@ IIJmioの初期費用は「1回線ごと」にかかります。だから家族�
 
 <p class="source">出典: <a href="https://help.iijmio.jp/answer/61396b9d98bf9c001935a5ae/" target="_blank" rel="nofollow noopener">IIJmio ヘルプ（初期費用・発行手数料）</a>、<a href="https://www.iijmio.jp/hdc/guide/mnp.html" target="_blank" rel="nofollow noopener">MNPのご案内</a>、<a href="https://www.iijmio.jp/hdc/spec/" target="_blank" rel="nofollow noopener">IIJmio 料金表</a> 税込・2026年11月3日時点</p>
 
-## 明日11月4日までなら、さらに重なるお得
+## 11月4日で終わったお得
 
-今日か明日に申し込める家なら、値上げ前の3,300円に、もう一段お得が重なります。eSIMで新しく申し込むと初期費用が半額の1,650円になり、eSIMのプロファイル発行手数料も0円です。eSIMの半額は、1つの契約者ID（mioID）につき1回までなので、家族全員分が半額になるわけではありません。
+eSIMの初期費用半額（1,650円）とeSIMのプロファイル発行手数料0円、25ギガ・5ギガの月額割引、通話定額10分＋の最大6か月0円は、11月4日で受付が終わりました。延長や次の回は、11月5日時点では発表されていません。
 
-月額の割引も11月4日23:59の申し込みまでです。25ギガが最初の数か月大きく安くなる割引で、家族4人の毎月の支払いがどう変わるかは[IIJmio家族乗り換えの記事]({{ '/sim/2026/10/24/iijmio-kazoku-norikae-campaign/' | relative_url }})で計算しています。スマホ本体が安くなる「スマホ大特価セール」だけは終わりが11月4日の21:59で、ほかより2時間早いので気をつけてください。
-
-これらのキャンペーンが延長されるか、次の回があるかは、11月3日の時点では発表されていません。
+いま申し込むなら、初期費用は値上げ前の3,300円で、月額は割引なしの料金です。家族で入ったときの毎月の額や、続いている家族割引は[IIJmioの評判と家族で入る前のデメリット]({{ '/sim/2026/10/19/iijmio-review/' | relative_url }})で計算しています。
 
 <p class="source">出典: <a href="https://www.iijmio.jp/hdc/spec/" target="_blank" rel="nofollow noopener">IIJmio 料金表</a>、<a href="https://www.iijmio.jp/gigaplan/esim/" target="_blank" rel="nofollow noopener">IIJmio eSIM</a>、<a href="https://www.iijmio.jp/info/iij/1780386103.html" target="_blank" rel="nofollow noopener">ハッピープライスキャンペーン＋</a>、<a href="https://www.iijmio.jp/info/iij/1780297417.html" target="_blank" rel="nofollow noopener">スマホ大特価セール</a> 2026年11月3日時点</p>
 
@@ -132,6 +130,6 @@ IIJmioの初期費用は「1回線ごと」にかかります。だから家族�
 
 ## まとめ
 
-IIJmioの初期費用は、11月30日の申し込みまで1回線3,300円、12月1日から3,850円です。家族4人なら2,200円、5人なら2,750円の差になります。明日11月4日までならeSIMの初期費用半額や月額割引も重なり、それを過ぎても11月中は値上げ前の最後の1か月です。予約番号の期限と月末のメンテナンスを考えて、11月29日（日）までに申し込みを終えましょう。eSIMで機種変更する人は[IIJmioのeSIM機種変更の手順]({{ '/sim/2026/11/01/iijmio-esim-kishuhenko/' | relative_url }})もどうぞ。
+IIJmioの初期費用は、11月30日の申し込みまで1回線3,300円、12月1日から3,850円です。家族4人なら2,200円、5人なら2,750円の差になります。eSIM半額や月額割引は11月4日で終わりましたが、11月中は値上げ前の最後の1か月です。予約番号の期限と月末のメンテナンスを考えて、11月29日（日）までに申し込みを終えましょう。eSIMで機種変更する人は[IIJmioのeSIM機種変更の手順]({{ '/sim/2026/11/01/iijmio-esim-kishuhenko/' | relative_url }})もどうぞ。
 
 {% include cta.html url="https://www.iijmio.jp/campaign/" label="IIJmio公式サイトで申し込みを見る" note="初期費用3,300円は11月30日申し込み分まで（月末日は申し込めない場合あり）" %}

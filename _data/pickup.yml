@@ -31,15 +31,17 @@
   rakuten: true
   button: マラソンのエントリーページへ
   post: /otoku/rakuten-marathon/
-- title: IIJmio 乗り換えキャンペーン
-  detail: 他社から乗り換えると、25GBが6か月間ずっとこの値段
-  big: "月900円"
-  big_note: 25GB（通常は月2,000円）
-  reason: 運営者がいま使っている格安SIMです。家族4人を同じ契約にまとめると家族割引（1回線100円引き）も重なります。10分以内の電話がかけ放題になる通話定額10分+も最大6か月0円です。
-  end: "2026-11-04 23:59"
-  url: https://www.iijmio.jp/campaign/
-  button: 公式のキャンペーンを見る
-  post: /sim/2026/10/24/iijmio-kazoku-norikae-campaign/
+- title: 楽天24の5と0のつく日
+  detail: 楽天24グループで楽天カード払い、エントリーは2か所（楽天カードと楽天24）
+  big: "合計5倍"
+  big_note: 楽天24の特典は月500ポイントまで
+  reason: 今日はお買い物マラソンの最中の5と0のつく日。洗剤やトイレットペーパーを1回税込3,980円以上でまとめれば送料無料で、楽天24スタンプカードも1個たまります。エントリーは今日の23:59まで、買ったあとでも間に合います。
+  start: "2026-11-05 00:00"
+  end: "2026-11-05 23:59"
+  url: https://24.rakuten.co.jp/campaign/5and0day/
+  rakuten: true
+  button: 楽天24のエントリーページへ
+  post: /otoku/rakuten-nichiyouhin-day/
 - title: 楽天カード2枚目の特典
   detail: e-NAVIから2枚目をJCBで作り、12月31日までに合計1万円使う
   big: "5,000pt"
@@ -58,3 +60,14 @@
   url: https://www.rakuten-card.co.jp/campaign/rakuten_card/family/add/
   button: 楽天カードのキャンペーンページへ
   post: /otoku/2026/10/26/rakuten-card-kazoku-card-500pt/
+- title: 楽天24スタンプカード
+  detail: 楽天24グループで1回税込3,980円以上を別々の日に6回買う
+  big: "500円OFF"
+  big_note: 6個でクーポン（2〜3個で300円、4〜5個で400円）
+  reason: 2027年2月1日(月)9:59まで、エントリー前の買い物も数えてもらえます。同じ日は1個まで、2回の合計では数えないので、1回の注文で3,980円をこえるように組みます。
+  start: "2026-11-02 10:00"
+  end: "2027-02-01 09:59"
+  url: https://24.rakuten.co.jp/event/reward/detail/
+  rakuten: true
+  button: スタンプカードのエントリーページへ
+  post: /otoku/2026/11/05/rakuten24-stamp-card/
