@@ -9,13 +9,6 @@
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   post: /otoku/rakuten-marathon/
 - name: 5と0のつく日
-  start: "2026-11-05 00:00"
-  end: "2026-11-05 23:59"
-  status: 確定
-  memo: 11月最初の5と0。楽天24は楽天カード払いで合計5倍（エントリー2か所）
-  url: https://24.rakuten.co.jp/campaign/5and0day/
-  post: /otoku/rakuten-nichiyouhin-day/
-- name: 5と0のつく日
   start: "2026-11-10 00:00"
   end: "2026-11-10 23:59"
   status: 確定

@@ -24,24 +24,23 @@
   detail: エントリー後、1店税込1,000円以上を10店で買うと全部の買い物が10倍
   big: "最大10倍"
   big_note: 買いまわりのポイント（上限7,000pt）
-  reason: エントリーは11月2日から受付中で、押す前の買い物も数えてもらえます。5日(木)と10日(火)の5と0のつく日に楽天カードで買えば、さらに上乗せされます。
+  reason: エントリーは11月2日から受付中で、押す前の買い物も数えてもらえます。10日(火)の5と0のつく日に楽天カードで買えば、さらに上乗せされます。
   start: "2026-11-04 20:00"
   end: "2026-11-11 01:59"
   url: https://event.rakuten.co.jp/campaign/point-up/marathon/
   rakuten: true
   button: マラソンのエントリーページへ
   post: /otoku/rakuten-marathon/
-- title: 楽天24の5と0のつく日
-  detail: 楽天24グループで楽天カード払い、エントリーは2か所（楽天カードと楽天24）
-  big: "合計5倍"
-  big_note: 楽天24の特典は月500ポイントまで
-  reason: 今日はお買い物マラソンの最中の5と0のつく日。洗剤やトイレットペーパーを1回税込3,980円以上でまとめれば送料無料で、楽天24スタンプカードも1個たまります。エントリーは今日の23:59まで、買ったあとでも間に合います。
-  start: "2026-11-05 00:00"
-  end: "2026-11-05 23:59"
-  url: https://24.rakuten.co.jp/campaign/5and0day/
-  rakuten: true
-  button: 楽天24のエントリーページへ
-  post: /otoku/rakuten-nichiyouhin-day/
+- title: IIJmioギガプラン半額
+  detail: 音声SIMの5〜35ギガが3か月半額、15ギガは20ギガに増量
+  big: "3か月半額"
+  big_note: 5ギガ475円・15ギガ800円・25ギガ1,000円（1〜3か月目）
+  reason: 他社からの乗り換えでも、新しく番号を作るのでも対象です。初期費用は12月1日の申し込みから3,850円に上がるので、家族で乗り換えるなら11月中が得。運営者もIIJmioを使っていて、いちばんの感想は「とにかく安い」です。
+  ongoing: true
+  checked: "2026-11-06"
+  url: https://www.iijmio.jp/info/iij/1793256547.html
+  button: IIJmioの半額キャンペーンを見る
+  post: /otoku/iijmio-campaign/
 - title: 楽天カード2枚目の特典
   detail: e-NAVIから2枚目をJCBで作り、12月31日までに合計1万円使う
   big: "5,000pt"

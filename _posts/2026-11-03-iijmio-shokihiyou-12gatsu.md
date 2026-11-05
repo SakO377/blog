@@ -2,7 +2,7 @@
 layout: post
 title: "IIJmioの初期費用は12月から3,850円｜4人なら11月中が2,200円安い"
 date: 2026-11-03 07:00:00 +0900
-updated: 2026-11-05
+updated: 2026-11-06
 categories: [sim]
 expires: 2026-11-30
 description: "IIJmioの初期費用は12月1日のWeb申込分から1回線3,300円→3,850円に。家族4人なら2,200円、5人なら2,750円の差です。初期費用0円のパッケージ申込との比べ方もまとめました。"
@@ -52,9 +52,9 @@ IIJmioの初期費用は「1回線ごと」にかかります。だから家族�
 
 ## 11月4日で終わったお得
 
-eSIMの初期費用半額（1,650円）とeSIMのプロファイル発行手数料0円、25ギガ・5ギガの月額割引、通話定額10分＋の最大6か月0円は、11月4日で受付が終わりました。延長や次の回は、11月5日時点では発表されていません。
+eSIMの初期費用半額（1,650円）とeSIMのプロファイル発行手数料0円、25ギガ・5ギガの月額割引、通話定額10分＋の最大6か月0円は、11月4日で受付が終わりました。かわりに11月5日から、5〜35ギガが最大3か月半額になる新しいキャンペーンが始まっています（終了日未定）。中身は[IIJmioキャンペーンまとめ]({{ '/otoku/iijmio-campaign/' | relative_url }})にまとめました。
 
-いま申し込むなら、初期費用は値上げ前の3,300円で、月額は割引なしの料金です。家族で入ったときの毎月の額や、続いている家族割引は[IIJmioの評判と家族で入る前のデメリット]({{ '/sim/2026/10/19/iijmio-review/' | relative_url }})で計算しています。
+いま申し込むなら、初期費用は値上げ前の3,300円で、5〜35ギガなら最初の3か月は月額が半額です。家族で入ったときの毎月の額や、続いている家族割引は[IIJmioの評判と家族で入る前のデメリット]({{ '/sim/2026/10/19/iijmio-review/' | relative_url }})で計算しています。
 
 <p class="source">出典: <a href="https://www.iijmio.jp/hdc/spec/" target="_blank" rel="nofollow noopener">IIJmio 料金表</a>、<a href="https://www.iijmio.jp/gigaplan/esim/" target="_blank" rel="nofollow noopener">IIJmio eSIM</a>、<a href="https://www.iijmio.jp/info/iij/1780386103.html" target="_blank" rel="nofollow noopener">ハッピープライスキャンペーン＋</a>、<a href="https://www.iijmio.jp/info/iij/1780297417.html" target="_blank" rel="nofollow noopener">スマホ大特価セール</a> 2026年11月3日時点</p>
 
@@ -130,6 +130,6 @@ eSIMの初期費用半額（1,650円）とeSIMのプロファイル発行手数�
 
 ## まとめ
 
-IIJmioの初期費用は、11月30日の申し込みまで1回線3,300円、12月1日から3,850円です。家族4人なら2,200円、5人なら2,750円の差になります。eSIM半額や月額割引は11月4日で終わりましたが、11月中は値上げ前の最後の1か月です。予約番号の期限と月末のメンテナンスを考えて、11月29日（日）までに申し込みを終えましょう。eSIMで機種変更する人は[IIJmioのeSIM機種変更の手順]({{ '/sim/2026/11/01/iijmio-esim-kishuhenko/' | relative_url }})もどうぞ。
+IIJmioの初期費用は、11月30日の申し込みまで1回線3,300円、12月1日から3,850円です。家族4人なら2,200円、5人なら2,750円の差になります。eSIM半額は11月4日で終わりましたが、11月中は値上げ前の最後の1か月で、5〜35ギガの3か月半額も重なります。予約番号の期限と月末のメンテナンスを考えて、11月29日（日）までに申し込みを終えましょう。eSIMで機種変更する人は[IIJmioのeSIM機種変更の手順]({{ '/sim/2026/11/01/iijmio-esim-kishuhenko/' | relative_url }})もどうぞ。
 
 {% include cta.html url="https://www.iijmio.jp/campaign/" label="IIJmio公式サイトで申し込みを見る" note="初期費用3,300円は11月30日申し込み分まで（月末日は申し込めない場合あり）" %}

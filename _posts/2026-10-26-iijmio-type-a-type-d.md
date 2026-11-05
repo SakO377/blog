@@ -2,7 +2,7 @@
 layout: post
 title: "IIJmioタイプAとタイプDどっち？違いを5項目で比べた結果"
 date: 2026-10-26 07:00:00 +0900
-updated: 2026-11-05
+updated: 2026-11-06
 categories: [sim]
 description: "IIJmioのタイプA（au回線）とタイプD（ドコモ回線）を、回線・料金・選べるSIM・5Gまわり・手数料の5項目で比べました。料金は同じ。あとから変えるといくらかかるか、あとから変える前に知っておきたい注意も整理しています。"
 ---
@@ -145,7 +145,7 @@ description: "IIJmioのタイプA（au回線）とタイプD（ドコモ回線�
 
 <details class="faq"><summary>新しく申し込むなら、キャンペーンはタイプで違う？</summary>
 
-11月4日23:59まであった新規向けの月額割引（5ギガ・25ギガ）は、タイプDとタイプAの区別がありませんでした。11月5日時点で次のキャンペーンは発表されていません。家族で申し込んだときの毎月の額は<a href="{{ '/sim/2026/10/19/iijmio-review/' | relative_url }}">IIJmioの評判と家族で入る前のデメリット</a>に、12月1日からの初期費用の値上げは<a href="{{ '/sim/2026/11/03/iijmio-shokihiyou-12gatsu/' | relative_url }}">IIJmioの初期費用は12月から3,850円</a>にまとめています。
+11月4日23:59まであった新規向けの月額割引（5ギガ・25ギガ）は、タイプDとタイプAの区別がありませんでした。11月5日からは、5〜35ギガが最大3か月半額になる新しいキャンペーンが始まっています（終了日未定。中身は<a href="{{ '/otoku/iijmio-campaign/' | relative_url }}">IIJmioキャンペーンまとめ</a>）。家族で申し込んだときの毎月の額は<a href="{{ '/sim/2026/10/19/iijmio-review/' | relative_url }}">IIJmioの評判と家族で入る前のデメリット</a>に、12月1日からの初期費用の値上げは<a href="{{ '/sim/2026/11/03/iijmio-shokihiyou-12gatsu/' | relative_url }}">IIJmioの初期費用は12月から3,850円</a>にまとめています。
 
 </details>
 
